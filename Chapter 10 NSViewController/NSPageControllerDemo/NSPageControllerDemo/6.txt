@@ -1,0 +1,3 @@
+The NSPageController class is used for controlling swipe navigation and animations between views or view content. It is useful for user interfaces which control navigating multiple pages as in a book or a web browser history.
+
+Page controller inherits from the NSViewController class . You must assign the view property to a view in your view hierarchy. The NSPageController class does not vend a view. The NSPageController class does insert itself into the responder chain

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420431E51C3BB45200BB3FBB /* DynamicHeightLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420431E31C3BB45200BB3FBB /* DynamicHeightLabelViewController.m */; };
+		420431E61C3BB45300BB3FBB /* DynamicHeightLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420431E41C3BB45200BB3FBB /* DynamicHeightLabelViewController.xib */; };
+		420431EA1C3BC11800BB3FBB /* FixedHeightColumnsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420431E81C3BC11800BB3FBB /* FixedHeightColumnsViewController.m */; };
+		420431EB1C3BC11800BB3FBB /* FixedHeightColumnsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420431E91C3BC11800BB3FBB /* FixedHeightColumnsViewController.xib */; };
+		420431EF1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420431ED1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.m */; };
+		420431F01C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420431EE1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.xib */; };
+		420437711C3E3232001A61B0 /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4204376F1C3E3232001A61B0 /* SimpleViewController.m */; };
+		420437721C3E3232001A61B0 /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420437701C3E3232001A61B0 /* SimpleViewController.xib */; };
+		420437791C3E83AC001A61B0 /* NestedStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420437771C3E83AC001A61B0 /* NestedStackViewController.m */; };
+		4204377A1C3E83AC001A61B0 /* NestedStackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420437781C3E83AC001A61B0 /* NestedStackViewController.xib */; };
+		4204377E1C3F3BB6001A61B0 /* SimpleStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4204377C1C3F3BB6001A61B0 /* SimpleStackViewController.m */; };
+		4204377F1C3F3BB6001A61B0 /* SimpleStackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4204377D1C3F3BB6001A61B0 /* SimpleStackViewController.xib */; };
+		420437831C3F444B001A61B0 /* Sonora.png in Resources */ = {isa = PBXBuildFile; fileRef = 420437821C3F444B001A61B0 /* Sonora.png */; };
+		423276121C3F89BB00FA305B /* GeneralFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423276101C3F89BB00FA305B /* GeneralFrameViewController.m */; };
+		423276131C3F89BB00FA305B /* GeneralFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 423276111C3F89BB00FA305B /* GeneralFrameViewController.xib */; };
+		423276151C3F9C5B00FA305B /* GeneralAutoFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 423276141C3F9C5B00FA305B /* GeneralAutoFrameViewController.xib */; };
+		4232763F1C423EBA00FA305B /* LabelTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4232763D1C423EBA00FA305B /* LabelTextFieldViewController.m */; };
+		423276401C423EBA00FA305B /* LabelTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4232763E1C423EBA00FA305B /* LabelTextFieldViewController.xib */; };
+		4247DDC21C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247DDC01C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.m */; };
+		4247DDC31C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4247DDC11C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.xib */; };
+		4247DDC71C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247DDC51C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.m */; };
+		4247DDC81C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4247DDC61C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.xib */; };
+		4247DDCC1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247DDCA1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.m */; };
+		4247DDCD1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4247DDCB1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.xib */; };
+		4247DDD11C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247DDCF1C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.m */; };
+		4247DDD21C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4247DDD01C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.xib */; };
+		4247DDD61C3C0634005BA3B7 /* ImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247DDD41C3C0634005BA3B7 /* ImageScrollViewController.m */; };
+		4247DDD71C3C0634005BA3B7 /* ImageScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4247DDD51C3C0634005BA3B7 /* ImageScrollViewController.xib */; };
+		4247DDD91C3CA54B005BA3B7 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4247DDD81C3CA54B005BA3B7 /* screen.png */; };
+		425B04D51C39F91C0033C85D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04D41C39F91C0033C85D /* AppDelegate.m */; };
+		425B04D81C39F91C0033C85D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04D71C39F91C0033C85D /* main.m */; };
+		425B04DA1C39F91C0033C85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B04D91C39F91C0033C85D /* Assets.xcassets */; };
+		425B04DD1C39F91C0033C85D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425B04DB1C39F91C0033C85D /* MainMenu.xib */; };
+		42F7110F1C3A9791004A3D37 /* SchoolMapBinding.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F7110E1C3A9791004A3D37 /* SchoolMapBinding.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420431E21C3BB45200BB3FBB /* DynamicHeightLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicHeightLabelViewController.h; sourceTree = "<group>"; };
+		420431E31C3BB45200BB3FBB /* DynamicHeightLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicHeightLabelViewController.m; sourceTree = "<group>"; };
+		420431E41C3BB45200BB3FBB /* DynamicHeightLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicHeightLabelViewController.xib; sourceTree = "<group>"; };
+		420431E71C3BC11800BB3FBB /* FixedHeightColumnsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedHeightColumnsViewController.h; sourceTree = "<group>"; };
+		420431E81C3BC11800BB3FBB /* FixedHeightColumnsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedHeightColumnsViewController.m; sourceTree = "<group>"; };
+		420431E91C3BC11800BB3FBB /* FixedHeightColumnsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FixedHeightColumnsViewController.xib; sourceTree = "<group>"; };
+		420431EC1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicHeightColumnsViewController.h; sourceTree = "<group>"; };
+		420431ED1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicHeightColumnsViewController.m; sourceTree = "<group>"; };
+		420431EE1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicHeightColumnsViewController.xib; sourceTree = "<group>"; };
+		4204376E1C3E3232001A61B0 /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		4204376F1C3E3232001A61B0 /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		420437701C3E3232001A61B0 /* SimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleViewController.xib; sourceTree = "<group>"; };
+		420437761C3E83AC001A61B0 /* NestedStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestedStackViewController.h; sourceTree = "<group>"; };
+		420437771C3E83AC001A61B0 /* NestedStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedStackViewController.m; sourceTree = "<group>"; };
+		420437781C3E83AC001A61B0 /* NestedStackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestedStackViewController.xib; sourceTree = "<group>"; };
+		4204377B1C3F3BB6001A61B0 /* SimpleStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleStackViewController.h; sourceTree = "<group>"; };
+		4204377C1C3F3BB6001A61B0 /* SimpleStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleStackViewController.m; sourceTree = "<group>"; };
+		4204377D1C3F3BB6001A61B0 /* SimpleStackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleStackViewController.xib; sourceTree = "<group>"; };
+		420437821C3F444B001A61B0 /* Sonora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sonora.png; sourceTree = "<group>"; };
+		4232760F1C3F89BB00FA305B /* GeneralFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralFrameViewController.h; sourceTree = "<group>"; };
+		423276101C3F89BB00FA305B /* GeneralFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralFrameViewController.m; sourceTree = "<group>"; };
+		423276111C3F89BB00FA305B /* GeneralFrameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralFrameViewController.xib; sourceTree = "<group>"; };
+		423276141C3F9C5B00FA305B /* GeneralAutoFrameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralAutoFrameViewController.xib; sourceTree = "<group>"; };
+		4232763C1C423EBA00FA305B /* LabelTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelTextFieldViewController.h; sourceTree = "<group>"; };
+		4232763D1C423EBA00FA305B /* LabelTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelTextFieldViewController.m; sourceTree = "<group>"; };
+		4232763E1C423EBA00FA305B /* LabelTextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelTextFieldViewController.xib; sourceTree = "<group>"; };
+		4247DDBF1C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoEqualWidthButtonsViewController.h; sourceTree = "<group>"; };
+		4247DDC01C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoEqualWidthButtonsViewController.m; sourceTree = "<group>"; };
+		4247DDC11C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoEqualWidthButtonsViewController.xib; sourceTree = "<group>"; };
+		4247DDC41C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeEqualWidthButtonsViewController.h; sourceTree = "<group>"; };
+		4247DDC51C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeEqualWidthButtonsViewController.m; sourceTree = "<group>"; };
+		4247DDC61C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeEqualWidthButtonsViewController.xib; sourceTree = "<group>"; };
+		4247DDC91C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoButtonswithEqualSpacingViewController.h; sourceTree = "<group>"; };
+		4247DDCA1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoButtonswithEqualSpacingViewController.m; sourceTree = "<group>"; };
+		4247DDCB1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoButtonswithEqualSpacingViewController.xib; sourceTree = "<group>"; };
+		4247DDCE1C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoButtonsSizeClassBasedLayoutsViewController.h; sourceTree = "<group>"; };
+		4247DDCF1C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoButtonsSizeClassBasedLayoutsViewController.m; sourceTree = "<group>"; };
+		4247DDD01C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoButtonsSizeClassBasedLayoutsViewController.xib; sourceTree = "<group>"; };
+		4247DDD31C3C0634005BA3B7 /* ImageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollViewController.h; sourceTree = "<group>"; };
+		4247DDD41C3C0634005BA3B7 /* ImageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollViewController.m; sourceTree = "<group>"; };
+		4247DDD51C3C0634005BA3B7 /* ImageScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageScrollViewController.xib; sourceTree = "<group>"; };
+		4247DDD81C3CA54B005BA3B7 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
+		425B04D01C39F91C0033C85D /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425B04D31C39F91C0033C85D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		425B04D41C39F91C0033C85D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		425B04D71C39F91C0033C85D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425B04D91C39F91C0033C85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		425B04DC1C39F91C0033C85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		425B04DE1C39F91C0033C85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F7110E1C3A9791004A3D37 /* SchoolMapBinding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SchoolMapBinding.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425B04CD1C39F91C0033C85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425B04C71C39F91B0033C85D = {
+			isa = PBXGroup;
+			children = (
+				425B04D21C39F91C0033C85D /* AutoLayout */,
+				425B04D11C39F91C0033C85D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425B04D11C39F91C0033C85D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425B04D01C39F91C0033C85D /* AutoLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425B04D21C39F91C0033C85D /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				425B04D31C39F91C0033C85D /* AppDelegate.h */,
+				425B04D41C39F91C0033C85D /* AppDelegate.m */,
+				420437821C3F444B001A61B0 /* Sonora.png */,
+				4247DDD81C3CA54B005BA3B7 /* screen.png */,
+				425B04D91C39F91C0033C85D /* Assets.xcassets */,
+				42F7110E1C3A9791004A3D37 /* SchoolMapBinding.png */,
+				425B04DB1C39F91C0033C85D /* MainMenu.xib */,
+				4232763C1C423EBA00FA305B /* LabelTextFieldViewController.h */,
+				4232763D1C423EBA00FA305B /* LabelTextFieldViewController.m */,
+				4232763E1C423EBA00FA305B /* LabelTextFieldViewController.xib */,
+				420431E21C3BB45200BB3FBB /* DynamicHeightLabelViewController.h */,
+				420431E31C3BB45200BB3FBB /* DynamicHeightLabelViewController.m */,
+				420431E41C3BB45200BB3FBB /* DynamicHeightLabelViewController.xib */,
+				4204376E1C3E3232001A61B0 /* SimpleViewController.h */,
+				4204376F1C3E3232001A61B0 /* SimpleViewController.m */,
+				420437701C3E3232001A61B0 /* SimpleViewController.xib */,
+				420431E71C3BC11800BB3FBB /* FixedHeightColumnsViewController.h */,
+				420431E81C3BC11800BB3FBB /* FixedHeightColumnsViewController.m */,
+				420431E91C3BC11800BB3FBB /* FixedHeightColumnsViewController.xib */,
+				420431EC1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.h */,
+				420431ED1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.m */,
+				420431EE1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.xib */,
+				4247DDBF1C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.h */,
+				4247DDC01C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.m */,
+				4247DDC11C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.xib */,
+				4247DDC41C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.h */,
+				4247DDC51C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.m */,
+				4247DDC61C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.xib */,
+				4247DDC91C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.h */,
+				4247DDCA1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.m */,
+				4247DDCB1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.xib */,
+				4247DDCE1C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.h */,
+				4247DDCF1C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.m */,
+				4247DDD01C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.xib */,
+				4247DDD31C3C0634005BA3B7 /* ImageScrollViewController.h */,
+				4247DDD41C3C0634005BA3B7 /* ImageScrollViewController.m */,
+				4247DDD51C3C0634005BA3B7 /* ImageScrollViewController.xib */,
+				4204377B1C3F3BB6001A61B0 /* SimpleStackViewController.h */,
+				4204377C1C3F3BB6001A61B0 /* SimpleStackViewController.m */,
+				4204377D1C3F3BB6001A61B0 /* SimpleStackViewController.xib */,
+				4232760F1C3F89BB00FA305B /* GeneralFrameViewController.h */,
+				423276101C3F89BB00FA305B /* GeneralFrameViewController.m */,
+				423276141C3F9C5B00FA305B /* GeneralAutoFrameViewController.xib */,
+				423276111C3F89BB00FA305B /* GeneralFrameViewController.xib */,
+				420437761C3E83AC001A61B0 /* NestedStackViewController.h */,
+				420437771C3E83AC001A61B0 /* NestedStackViewController.m */,
+				420437781C3E83AC001A61B0 /* NestedStackViewController.xib */,
+				425B04DE1C39F91C0033C85D /* Info.plist */,
+				425B04D61C39F91C0033C85D /* Supporting Files */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		425B04D61C39F91C0033C85D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425B04D71C39F91C0033C85D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425B04CF1C39F91C0033C85D /* AutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425B04E11C39F91C0033C85D /* Build configuration list for PBXNativeTarget "AutoLayout" */;
+			buildPhases = (
+				425B04CC1C39F91C0033C85D /* Sources */,
+				425B04CD1C39F91C0033C85D /* Frameworks */,
+				425B04CE1C39F91C0033C85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayout;
+			productName = AutoLayout;
+			productReference = 425B04D01C39F91C0033C85D /* AutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425B04C81C39F91B0033C85D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MacDev.io;
+				TargetAttributes = {
+					425B04CF1C39F91C0033C85D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 425B04CB1C39F91B0033C85D /* Build configuration list for PBXProject "AutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 425B04C71C39F91B0033C85D;
+			productRefGroup = 425B04D11C39F91C0033C85D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425B04CF1C39F91C0033C85D /* AutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425B04CE1C39F91C0033C85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4247DDC31C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.xib in Resources */,
+				4247DDD91C3CA54B005BA3B7 /* screen.png in Resources */,
+				425B04DA1C39F91C0033C85D /* Assets.xcassets in Resources */,
+				4204377F1C3F3BB6001A61B0 /* SimpleStackViewController.xib in Resources */,
+				425B04DD1C39F91C0033C85D /* MainMenu.xib in Resources */,
+				4247DDD21C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.xib in Resources */,
+				4247DDD71C3C0634005BA3B7 /* ImageScrollViewController.xib in Resources */,
+				4247DDCD1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.xib in Resources */,
+				420431EB1C3BC11800BB3FBB /* FixedHeightColumnsViewController.xib in Resources */,
+				4204377A1C3E83AC001A61B0 /* NestedStackViewController.xib in Resources */,
+				423276131C3F89BB00FA305B /* GeneralFrameViewController.xib in Resources */,
+				420431F01C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.xib in Resources */,
+				420431E61C3BB45300BB3FBB /* DynamicHeightLabelViewController.xib in Resources */,
+				420437721C3E3232001A61B0 /* SimpleViewController.xib in Resources */,
+				423276151C3F9C5B00FA305B /* GeneralAutoFrameViewController.xib in Resources */,
+				42F7110F1C3A9791004A3D37 /* SchoolMapBinding.png in Resources */,
+				423276401C423EBA00FA305B /* LabelTextFieldViewController.xib in Resources */,
+				4247DDC81C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.xib in Resources */,
+				420437831C3F444B001A61B0 /* Sonora.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425B04CC1C39F91C0033C85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425B04D81C39F91C0033C85D /* main.m in Sources */,
+				4247DDD61C3C0634005BA3B7 /* ImageScrollViewController.m in Sources */,
+				4247DDC21C3BD99A005BA3B7 /* TwoEqualWidthButtonsViewController.m in Sources */,
+				420431EF1C3BC59F00BB3FBB /* DynamicHeightColumnsViewController.m in Sources */,
+				425B04D51C39F91C0033C85D /* AppDelegate.m in Sources */,
+				4204377E1C3F3BB6001A61B0 /* SimpleStackViewController.m in Sources */,
+				420437791C3E83AC001A61B0 /* NestedStackViewController.m in Sources */,
+				420431EA1C3BC11800BB3FBB /* FixedHeightColumnsViewController.m in Sources */,
+				4232763F1C423EBA00FA305B /* LabelTextFieldViewController.m in Sources */,
+				420431E51C3BB45200BB3FBB /* DynamicHeightLabelViewController.m in Sources */,
+				423276121C3F89BB00FA305B /* GeneralFrameViewController.m in Sources */,
+				4247DDD11C3BE29D005BA3B7 /* TwoButtonsSizeClassBasedLayoutsViewController.m in Sources */,
+				4247DDCC1C3BDFAE005BA3B7 /* TwoButtonswithEqualSpacingViewController.m in Sources */,
+				420437711C3E3232001A61B0 /* SimpleViewController.m in Sources */,
+				4247DDC71C3BDB27005BA3B7 /* ThreeEqualWidthButtonsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		425B04DB1C39F91C0033C85D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425B04DC1C39F91C0033C85D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		425B04DF1C39F91C0033C85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		425B04E01C39F91C0033C85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		425B04E21C39F91C0033C85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.AutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		425B04E31C39F91C0033C85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.AutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425B04CB1C39F91B0033C85D /* Build configuration list for PBXProject "AutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425B04DF1C39F91C0033C85D /* Debug */,
+				425B04E01C39F91C0033C85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425B04E11C39F91C0033C85D /* Build configuration list for PBXNativeTarget "AutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425B04E21C39F91C0033C85D /* Debug */,
+				425B04E31C39F91C0033C85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 425B04C81C39F91B0033C85D /* Project object */;
+}

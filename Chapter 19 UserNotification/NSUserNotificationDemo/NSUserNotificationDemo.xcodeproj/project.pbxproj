@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420EC42C1C0298B700FF028A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420EC42B1C0298B700FF028A /* AppDelegate.m */; };
+		420EC42F1C0298B700FF028A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420EC42E1C0298B700FF028A /* main.m */; };
+		420EC4311C0298B700FF028A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420EC4301C0298B700FF028A /* Assets.xcassets */; };
+		420EC4341C0298B700FF028A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420EC4321C0298B700FF028A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420CFD001C02E92F00936844 /* NSUserNotificationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NSUserNotificationDemo.entitlements; sourceTree = "<group>"; };
+		420EC4271C0298B700FF028A /* NSUserNotificationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSUserNotificationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420EC42A1C0298B700FF028A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		420EC42B1C0298B700FF028A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		420EC42E1C0298B700FF028A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		420EC4301C0298B700FF028A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420EC4331C0298B700FF028A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		420EC4351C0298B700FF028A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420EC4241C0298B700FF028A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420EC41E1C0298B700FF028A = {
+			isa = PBXGroup;
+			children = (
+				420EC4291C0298B700FF028A /* NSUserNotificationDemo */,
+				420EC4281C0298B700FF028A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420EC4281C0298B700FF028A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420EC4271C0298B700FF028A /* NSUserNotificationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420EC4291C0298B700FF028A /* NSUserNotificationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				420CFD001C02E92F00936844 /* NSUserNotificationDemo.entitlements */,
+				420EC42A1C0298B700FF028A /* AppDelegate.h */,
+				420EC42B1C0298B700FF028A /* AppDelegate.m */,
+				420EC4301C0298B700FF028A /* Assets.xcassets */,
+				420EC4321C0298B700FF028A /* MainMenu.xib */,
+				420EC4351C0298B700FF028A /* Info.plist */,
+				420EC42D1C0298B700FF028A /* Supporting Files */,
+			);
+			path = NSUserNotificationDemo;
+			sourceTree = "<group>";
+		};
+		420EC42D1C0298B700FF028A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				420EC42E1C0298B700FF028A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		420EC4261C0298B700FF028A /* NSUserNotificationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420EC4381C0298B700FF028A /* Build configuration list for PBXNativeTarget "NSUserNotificationDemo" */;
+			buildPhases = (
+				420EC4231C0298B700FF028A /* Sources */,
+				420EC4241C0298B700FF028A /* Frameworks */,
+				420EC4251C0298B700FF028A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSUserNotificationDemo;
+			productName = NSUserNotificationDemo;
+			productReference = 420EC4271C0298B700FF028A /* NSUserNotificationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420EC41F1C0298B700FF028A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhaojw;
+				TargetAttributes = {
+					420EC4261C0298B700FF028A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4NGF9QU6K9;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 420EC4221C0298B700FF028A /* Build configuration list for PBXProject "NSUserNotificationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 420EC41E1C0298B700FF028A;
+			productRefGroup = 420EC4281C0298B700FF028A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420EC4261C0298B700FF028A /* NSUserNotificationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420EC4251C0298B700FF028A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420EC4311C0298B700FF028A /* Assets.xcassets in Resources */,
+				420EC4341C0298B700FF028A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420EC4231C0298B700FF028A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420EC42F1C0298B700FF028A /* main.m in Sources */,
+				420EC42C1C0298B700FF028A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		420EC4321C0298B700FF028A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420EC4331C0298B700FF028A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420EC4361C0298B700FF028A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: junwei zhao (8QB46STSMZ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		420EC4371C0298B700FF028A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: junwei zhao (8QB46STSMZ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		420EC4391C0298B700FF028A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSUserNotificationDemo/NSUserNotificationDemo.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSUserNotificationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahunt.NSUserNotificationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "62347699-b6c0-464d-a5e5-5686fcc7209e";
+			};
+			name = Debug;
+		};
+		420EC43A1C0298B700FF028A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSUserNotificationDemo/NSUserNotificationDemo.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSUserNotificationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahunt.NSUserNotificationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "62347699-b6c0-464d-a5e5-5686fcc7209e";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420EC4221C0298B700FF028A /* Build configuration list for PBXProject "NSUserNotificationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420EC4361C0298B700FF028A /* Debug */,
+				420EC4371C0298B700FF028A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420EC4381C0298B700FF028A /* Build configuration list for PBXNativeTarget "NSUserNotificationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420EC4391C0298B700FF028A /* Debug */,
+				420EC43A1C0298B700FF028A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420EC41F1C0298B700FF028A /* Project object */;
+}

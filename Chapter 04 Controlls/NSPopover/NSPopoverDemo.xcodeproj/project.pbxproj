@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F6167D1BABDB3000E4DB69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F6167C1BABDB3000E4DB69 /* AppDelegate.m */; };
+		42F6167F1BABDB3000E4DB69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F6167E1BABDB3000E4DB69 /* main.m */; };
+		42F616811BABDB3000E4DB69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F616801BABDB3000E4DB69 /* Images.xcassets */; };
+		42F616841BABDB3000E4DB69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F616821BABDB3000E4DB69 /* MainMenu.xib */; };
+		42F6169C1BABDC0700E4DB69 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F6169A1BABDC0700E4DB69 /* ShareViewController.m */; };
+		42F6169D1BABDC0700E4DB69 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F6169B1BABDC0700E4DB69 /* ShareViewController.xib */; };
+		42F616A11BABE14800E4DB69 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F6169F1BABE14800E4DB69 /* FeedbackViewController.m */; };
+		42F616A21BABE14800E4DB69 /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F616A01BABE14800E4DB69 /* FeedbackViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42973C821BAE75BF000C002B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42973C731BAE75BF000C002B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		42F616761BABDB3000E4DB69 /* NSPopoverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSPopoverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F6167A1BABDB3000E4DB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F6167B1BABDB3000E4DB69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42F6167C1BABDB3000E4DB69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42F6167E1BABDB3000E4DB69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42F616801BABDB3000E4DB69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42F616831BABDB3000E4DB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		42F616991BABDC0700E4DB69 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		42F6169A1BABDC0700E4DB69 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		42F6169B1BABDC0700E4DB69 /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		42F6169E1BABE14800E4DB69 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		42F6169F1BABE14800E4DB69 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		42F616A01BABE14800E4DB69 /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F616731BABDB3000E4DB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42973C721BAE75BF000C002B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42973C731BAE75BF000C002B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42F6166D1BABDB3000E4DB69 = {
+			isa = PBXGroup;
+			children = (
+				42F616781BABDB3000E4DB69 /* NSPopoverDemo */,
+				42973C721BAE75BF000C002B /* Frameworks */,
+				42F616771BABDB3000E4DB69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42F616771BABDB3000E4DB69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F616761BABDB3000E4DB69 /* NSPopoverDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F616781BABDB3000E4DB69 /* NSPopoverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42F6167B1BABDB3000E4DB69 /* AppDelegate.h */,
+				42F6167C1BABDB3000E4DB69 /* AppDelegate.m */,
+				42F616801BABDB3000E4DB69 /* Images.xcassets */,
+				42F616821BABDB3000E4DB69 /* MainMenu.xib */,
+				42F616791BABDB3000E4DB69 /* Supporting Files */,
+				42F616991BABDC0700E4DB69 /* ShareViewController.h */,
+				42F6169A1BABDC0700E4DB69 /* ShareViewController.m */,
+				42F6169B1BABDC0700E4DB69 /* ShareViewController.xib */,
+				42F6169E1BABE14800E4DB69 /* FeedbackViewController.h */,
+				42F6169F1BABE14800E4DB69 /* FeedbackViewController.m */,
+				42F616A01BABE14800E4DB69 /* FeedbackViewController.xib */,
+			);
+			path = NSPopoverDemo;
+			sourceTree = "<group>";
+		};
+		42F616791BABDB3000E4DB69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F6167A1BABDB3000E4DB69 /* Info.plist */,
+				42F6167E1BABDB3000E4DB69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F616751BABDB3000E4DB69 /* NSPopoverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F616931BABDB3000E4DB69 /* Build configuration list for PBXNativeTarget "NSPopoverDemo" */;
+			buildPhases = (
+				42F616721BABDB3000E4DB69 /* Sources */,
+				42F616731BABDB3000E4DB69 /* Frameworks */,
+				42F616741BABDB3000E4DB69 /* Resources */,
+				42973C821BAE75BF000C002B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSPopoverDemo;
+			productName = NSPopoverDemo;
+			productReference = 42F616761BABDB3000E4DB69 /* NSPopoverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F6166E1BABDB3000E4DB69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = zhaojw;
+				TargetAttributes = {
+					42F616751BABDB3000E4DB69 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 42F616711BABDB3000E4DB69 /* Build configuration list for PBXProject "NSPopoverDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42F6166D1BABDB3000E4DB69;
+			productRefGroup = 42F616771BABDB3000E4DB69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F616751BABDB3000E4DB69 /* NSPopoverDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F616741BABDB3000E4DB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F616811BABDB3000E4DB69 /* Images.xcassets in Resources */,
+				42F6169D1BABDC0700E4DB69 /* ShareViewController.xib in Resources */,
+				42F616841BABDB3000E4DB69 /* MainMenu.xib in Resources */,
+				42F616A21BABE14800E4DB69 /* FeedbackViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F616721BABDB3000E4DB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F6167F1BABDB3000E4DB69 /* main.m in Sources */,
+				42F6169C1BABDC0700E4DB69 /* ShareViewController.m in Sources */,
+				42F6167D1BABDB3000E4DB69 /* AppDelegate.m in Sources */,
+				42F616A11BABE14800E4DB69 /* FeedbackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42F616821BABDB3000E4DB69 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F616831BABDB3000E4DB69 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F616911BABDB3000E4DB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		42F616921BABDB3000E4DB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		42F616941BABDB3000E4DB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSPopoverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42F616951BABDB3000E4DB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSPopoverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F616711BABDB3000E4DB69 /* Build configuration list for PBXProject "NSPopoverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F616911BABDB3000E4DB69 /* Debug */,
+				42F616921BABDB3000E4DB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F616931BABDB3000E4DB69 /* Build configuration list for PBXNativeTarget "NSPopoverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F616941BABDB3000E4DB69 /* Debug */,
+				42F616951BABDB3000E4DB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F6166E1BABDB3000E4DB69 /* Project object */;
+}

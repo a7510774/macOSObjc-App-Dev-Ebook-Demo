@@ -1,0 +1,3 @@
+The NSApplication class provides the central framework for your app’s execution.
+
+Every app must have exactly one instance of NSApplication (or a subclass of NSApplication). Your program’s main() function should create this instance by invoking the sharedApplication class method. After creating the NSApplication object, the main() function should load your app’s main nib file and then start the event loop by sending the NSApplication object a run message. If you create an Application project in Xcode, this main() function is created for you. The main() function Xcode creates begins by calling a function named NSApplicationMain(), which is functionally similar to the following:

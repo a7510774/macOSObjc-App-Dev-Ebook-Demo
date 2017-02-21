@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4299C6CF1C7D3B1900063213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6CE1C7D3B1900063213 /* AppDelegate.m */; };
+		4299C6D21C7D3B1900063213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6D11C7D3B1900063213 /* main.m */; };
+		4299C6D41C7D3B1900063213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4299C6D31C7D3B1900063213 /* Assets.xcassets */; };
+		4299C6D71C7D3B1900063213 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4299C6D51C7D3B1900063213 /* MainMenu.xib */; };
+		4299C6E11C7D3B5900063213 /* CDMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6DF1C7D3B5900063213 /* CDMainWindowController.m */; };
+		4299C6E21C7D3B5900063213 /* CDMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4299C6E01C7D3B5900063213 /* CDMainWindowController.xib */; };
+		4299C6E51C81D7DD00063213 /* CDDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6E41C81D7DD00063213 /* CDDrawView.m */; };
+		4299C6E81C829A1C00063213 /* CDColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6E71C829A1C00063213 /* CDColorView.m */; };
+		4299C6EB1C83F78400063213 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6EA1C83F78400063213 /* GradientView.m */; };
+		4299C6EE1C858E8300063213 /* CDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6ED1C858E8300063213 /* CDButton.m */; };
+		42F4243D1CF3DD1900389023 /* ContentStateView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4243C1CF3DD1900389023 /* ContentStateView1.m */; };
+		42F424401CF3DD2800389023 /* ContentStateView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4243F1CF3DD2800389023 /* ContentStateView2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4299C6CA1C7D3B1900063213 /* CocoaDrawDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaDrawDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4299C6CD1C7D3B1900063213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4299C6CE1C7D3B1900063213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4299C6D11C7D3B1900063213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4299C6D31C7D3B1900063213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4299C6D61C7D3B1900063213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4299C6D81C7D3B1900063213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4299C6DE1C7D3B5900063213 /* CDMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMainWindowController.h; sourceTree = "<group>"; };
+		4299C6DF1C7D3B5900063213 /* CDMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMainWindowController.m; sourceTree = "<group>"; };
+		4299C6E01C7D3B5900063213 /* CDMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDMainWindowController.xib; sourceTree = "<group>"; };
+		4299C6E31C81D7DD00063213 /* CDDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDrawView.h; sourceTree = "<group>"; };
+		4299C6E41C81D7DD00063213 /* CDDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDrawView.m; sourceTree = "<group>"; };
+		4299C6E61C829A1C00063213 /* CDColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDColorView.h; sourceTree = "<group>"; };
+		4299C6E71C829A1C00063213 /* CDColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDColorView.m; sourceTree = "<group>"; };
+		4299C6E91C83F78400063213 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		4299C6EA1C83F78400063213 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		4299C6EC1C858E8300063213 /* CDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDButton.h; sourceTree = "<group>"; };
+		4299C6ED1C858E8300063213 /* CDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDButton.m; sourceTree = "<group>"; };
+		42F4243B1CF3DD1900389023 /* ContentStateView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentStateView1.h; sourceTree = "<group>"; };
+		42F4243C1CF3DD1900389023 /* ContentStateView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentStateView1.m; sourceTree = "<group>"; };
+		42F4243E1CF3DD2800389023 /* ContentStateView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentStateView2.h; sourceTree = "<group>"; };
+		42F4243F1CF3DD2800389023 /* ContentStateView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentStateView2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4299C6C71C7D3B1900063213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4299C6C11C7D3B1900063213 = {
+			isa = PBXGroup;
+			children = (
+				4299C6CC1C7D3B1900063213 /* CocoaDrawDemo */,
+				4299C6CB1C7D3B1900063213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4299C6CB1C7D3B1900063213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4299C6CA1C7D3B1900063213 /* CocoaDrawDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4299C6CC1C7D3B1900063213 /* CocoaDrawDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4299C6CD1C7D3B1900063213 /* AppDelegate.h */,
+				4299C6CE1C7D3B1900063213 /* AppDelegate.m */,
+				4299C6DE1C7D3B5900063213 /* CDMainWindowController.h */,
+				4299C6DF1C7D3B5900063213 /* CDMainWindowController.m */,
+				4299C6E01C7D3B5900063213 /* CDMainWindowController.xib */,
+				4299C6E31C81D7DD00063213 /* CDDrawView.h */,
+				4299C6E41C81D7DD00063213 /* CDDrawView.m */,
+				4299C6D31C7D3B1900063213 /* Assets.xcassets */,
+				4299C6D51C7D3B1900063213 /* MainMenu.xib */,
+				4299C6D81C7D3B1900063213 /* Info.plist */,
+				4299C6D01C7D3B1900063213 /* Supporting Files */,
+				4299C6E61C829A1C00063213 /* CDColorView.h */,
+				4299C6E71C829A1C00063213 /* CDColorView.m */,
+				4299C6E91C83F78400063213 /* GradientView.h */,
+				4299C6EA1C83F78400063213 /* GradientView.m */,
+				4299C6EC1C858E8300063213 /* CDButton.h */,
+				4299C6ED1C858E8300063213 /* CDButton.m */,
+				42F4243B1CF3DD1900389023 /* ContentStateView1.h */,
+				42F4243C1CF3DD1900389023 /* ContentStateView1.m */,
+				42F4243E1CF3DD2800389023 /* ContentStateView2.h */,
+				42F4243F1CF3DD2800389023 /* ContentStateView2.m */,
+			);
+			path = CocoaDrawDemo;
+			sourceTree = "<group>";
+		};
+		4299C6D01C7D3B1900063213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4299C6D11C7D3B1900063213 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4299C6C91C7D3B1900063213 /* CocoaDrawDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4299C6DB1C7D3B1900063213 /* Build configuration list for PBXNativeTarget "CocoaDrawDemo" */;
+			buildPhases = (
+				4299C6C61C7D3B1900063213 /* Sources */,
+				4299C6C71C7D3B1900063213 /* Frameworks */,
+				4299C6C81C7D3B1900063213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaDrawDemo;
+			productName = CocoaDrawDemo;
+			productReference = 4299C6CA1C7D3B1900063213 /* CocoaDrawDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4299C6C21C7D3B1900063213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MacDev.io;
+				TargetAttributes = {
+					4299C6C91C7D3B1900063213 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4299C6C51C7D3B1900063213 /* Build configuration list for PBXProject "CocoaDrawDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4299C6C11C7D3B1900063213;
+			productRefGroup = 4299C6CB1C7D3B1900063213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4299C6C91C7D3B1900063213 /* CocoaDrawDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4299C6C81C7D3B1900063213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4299C6E21C7D3B5900063213 /* CDMainWindowController.xib in Resources */,
+				4299C6D41C7D3B1900063213 /* Assets.xcassets in Resources */,
+				4299C6D71C7D3B1900063213 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4299C6C61C7D3B1900063213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4299C6E11C7D3B5900063213 /* CDMainWindowController.m in Sources */,
+				4299C6E81C829A1C00063213 /* CDColorView.m in Sources */,
+				4299C6D21C7D3B1900063213 /* main.m in Sources */,
+				4299C6CF1C7D3B1900063213 /* AppDelegate.m in Sources */,
+				4299C6EB1C83F78400063213 /* GradientView.m in Sources */,
+				4299C6EE1C858E8300063213 /* CDButton.m in Sources */,
+				42F4243D1CF3DD1900389023 /* ContentStateView1.m in Sources */,
+				4299C6E51C81D7DD00063213 /* CDDrawView.m in Sources */,
+				42F424401CF3DD2800389023 /* ContentStateView2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4299C6D51C7D3B1900063213 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4299C6D61C7D3B1900063213 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4299C6D91C7D3B1900063213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4299C6DA1C7D3B1900063213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4299C6DC1C7D3B1900063213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaDrawDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.CocoaDrawDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4299C6DD1C7D3B1900063213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaDrawDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.CocoaDrawDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4299C6C51C7D3B1900063213 /* Build configuration list for PBXProject "CocoaDrawDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4299C6D91C7D3B1900063213 /* Debug */,
+				4299C6DA1C7D3B1900063213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4299C6DB1C7D3B1900063213 /* Build configuration list for PBXNativeTarget "CocoaDrawDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4299C6DC1C7D3B1900063213 /* Debug */,
+				4299C6DD1C7D3B1900063213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4299C6C21C7D3B1900063213 /* Project object */;
+}

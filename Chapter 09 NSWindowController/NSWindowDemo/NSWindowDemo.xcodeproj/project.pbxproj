@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D7AD521BA6AACF00A06108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7AD511BA6AACF00A06108 /* AppDelegate.m */; };
+		42D7AD541BA6AACF00A06108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7AD531BA6AACF00A06108 /* main.m */; };
+		42D7AD561BA6AACF00A06108 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D7AD551BA6AACF00A06108 /* Images.xcassets */; };
+		42D7AD591BA6AACF00A06108 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D7AD571BA6AACF00A06108 /* MainMenu.xib */; };
+		42D7AD701BA6AAE200A06108 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7AD6F1BA6AAE200A06108 /* MyWindow.m */; };
+		42D7AD741BA6BDBD00A06108 /* NSToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7AD721BA6BDBC00A06108 /* NSToolViewController.m */; };
+		42D7AD751BA6BDBD00A06108 /* NSToolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D7AD731BA6BDBD00A06108 /* NSToolViewController.xib */; };
+		42D7AD791BA6BFD700A06108 /* NSWindowVVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7AD771BA6BFD700A06108 /* NSWindowVVController.m */; };
+		42D7AD7A1BA6BFD700A06108 /* NSWindowVVController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D7AD781BA6BFD700A06108 /* NSWindowVVController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42D7AD4B1BA6AACF00A06108 /* NSWindowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSWindowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D7AD4F1BA6AACF00A06108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D7AD501BA6AACF00A06108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42D7AD511BA6AACF00A06108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42D7AD531BA6AACF00A06108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42D7AD551BA6AACF00A06108 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42D7AD581BA6AACF00A06108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		42D7AD6E1BA6AAE100A06108 /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		42D7AD6F1BA6AAE200A06108 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
+		42D7AD711BA6BDBC00A06108 /* NSToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSToolViewController.h; sourceTree = "<group>"; };
+		42D7AD721BA6BDBC00A06108 /* NSToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSToolViewController.m; sourceTree = "<group>"; };
+		42D7AD731BA6BDBD00A06108 /* NSToolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSToolViewController.xib; sourceTree = "<group>"; };
+		42D7AD761BA6BFD700A06108 /* NSWindowVVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSWindowVVController.h; sourceTree = "<group>"; };
+		42D7AD771BA6BFD700A06108 /* NSWindowVVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSWindowVVController.m; sourceTree = "<group>"; };
+		42D7AD781BA6BFD700A06108 /* NSWindowVVController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSWindowVVController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D7AD481BA6AACF00A06108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D7AD421BA6AACF00A06108 = {
+			isa = PBXGroup;
+			children = (
+				42D7AD4D1BA6AACF00A06108 /* NSWindowDemo */,
+				42D7AD4C1BA6AACF00A06108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42D7AD4C1BA6AACF00A06108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D7AD4B1BA6AACF00A06108 /* NSWindowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D7AD4D1BA6AACF00A06108 /* NSWindowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42D7AD501BA6AACF00A06108 /* AppDelegate.h */,
+				42D7AD511BA6AACF00A06108 /* AppDelegate.m */,
+				42D7AD6E1BA6AAE100A06108 /* MyWindow.h */,
+				42D7AD6F1BA6AAE200A06108 /* MyWindow.m */,
+				42D7AD711BA6BDBC00A06108 /* NSToolViewController.h */,
+				42D7AD721BA6BDBC00A06108 /* NSToolViewController.m */,
+				42D7AD731BA6BDBD00A06108 /* NSToolViewController.xib */,
+				42D7AD761BA6BFD700A06108 /* NSWindowVVController.h */,
+				42D7AD771BA6BFD700A06108 /* NSWindowVVController.m */,
+				42D7AD781BA6BFD700A06108 /* NSWindowVVController.xib */,
+				42D7AD551BA6AACF00A06108 /* Images.xcassets */,
+				42D7AD571BA6AACF00A06108 /* MainMenu.xib */,
+				42D7AD4E1BA6AACF00A06108 /* Supporting Files */,
+			);
+			path = NSWindowDemo;
+			sourceTree = "<group>";
+		};
+		42D7AD4E1BA6AACF00A06108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42D7AD4F1BA6AACF00A06108 /* Info.plist */,
+				42D7AD531BA6AACF00A06108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D7AD4A1BA6AACF00A06108 /* NSWindowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D7AD681BA6AACF00A06108 /* Build configuration list for PBXNativeTarget "NSWindowDemo" */;
+			buildPhases = (
+				42D7AD471BA6AACF00A06108 /* Sources */,
+				42D7AD481BA6AACF00A06108 /* Frameworks */,
+				42D7AD491BA6AACF00A06108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSWindowDemo;
+			productName = NSWindowDemo;
+			productReference = 42D7AD4B1BA6AACF00A06108 /* NSWindowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D7AD431BA6AACF00A06108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = zhaojw;
+				TargetAttributes = {
+					42D7AD4A1BA6AACF00A06108 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 42D7AD461BA6AACF00A06108 /* Build configuration list for PBXProject "NSWindowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42D7AD421BA6AACF00A06108;
+			productRefGroup = 42D7AD4C1BA6AACF00A06108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D7AD4A1BA6AACF00A06108 /* NSWindowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D7AD491BA6AACF00A06108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D7AD561BA6AACF00A06108 /* Images.xcassets in Resources */,
+				42D7AD591BA6AACF00A06108 /* MainMenu.xib in Resources */,
+				42D7AD7A1BA6BFD700A06108 /* NSWindowVVController.xib in Resources */,
+				42D7AD751BA6BDBD00A06108 /* NSToolViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D7AD471BA6AACF00A06108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D7AD701BA6AAE200A06108 /* MyWindow.m in Sources */,
+				42D7AD541BA6AACF00A06108 /* main.m in Sources */,
+				42D7AD521BA6AACF00A06108 /* AppDelegate.m in Sources */,
+				42D7AD741BA6BDBD00A06108 /* NSToolViewController.m in Sources */,
+				42D7AD791BA6BFD700A06108 /* NSWindowVVController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42D7AD571BA6AACF00A06108 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D7AD581BA6AACF00A06108 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D7AD661BA6AACF00A06108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		42D7AD671BA6AACF00A06108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		42D7AD691BA6AACF00A06108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSWindowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42D7AD6A1BA6AACF00A06108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSWindowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D7AD461BA6AACF00A06108 /* Build configuration list for PBXProject "NSWindowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D7AD661BA6AACF00A06108 /* Debug */,
+				42D7AD671BA6AACF00A06108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D7AD681BA6AACF00A06108 /* Build configuration list for PBXNativeTarget "NSWindowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D7AD691BA6AACF00A06108 /* Debug */,
+				42D7AD6A1BA6AACF00A06108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D7AD431BA6AACF00A06108 /* Project object */;
+}

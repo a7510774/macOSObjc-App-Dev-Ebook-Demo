@@ -1,0 +1,3 @@
+try
+tell application "System Events" to sleep
+end try

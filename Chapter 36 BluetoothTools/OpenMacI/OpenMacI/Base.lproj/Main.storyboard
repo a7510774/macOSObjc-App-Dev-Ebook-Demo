@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11191" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11156"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hostName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXN-SG-Lli">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPA-Wg-ZQl">
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="1pi-EU-KR3"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Scanning..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nw-Ps-qoq">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xJB-JB-9yX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="83H-gE-3vm"/>
+                                    <constraint firstAttribute="height" constant="80" id="JQC-bx-UBA"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwt-kC-a6S">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="63C-PK-hZr"/>
+                                    <constraint firstAttribute="width" constant="67" id="fSg-QU-slW"/>
+                                </constraints>
+                                <state key="normal" title="  Lock  "/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="63C-PK-hZr"/>
+                                        <exclude reference="fSg-QU-slW"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="lockAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Elq-V6-oh5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8e-ri-Ruf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gKt-U2-VcF"/>
+                                    <constraint firstAttribute="width" constant="67" id="rvt-rK-TPK"/>
+                                </constraints>
+                                <state key="normal" title="Restart"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gKt-U2-VcF"/>
+                                        <exclude reference="rvt-rK-TPK"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="restartAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lqy-Al-uuj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sY-WP-9N2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8En-iO-zVv"/>
+                                    <constraint firstAttribute="width" constant="67" id="f8n-D9-IGJ"/>
+                                </constraints>
+                                <state key="normal" title="Shutdown"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8En-iO-zVv"/>
+                                        <exclude reference="f8n-D9-IGJ"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="shutdownAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="du8-Su-WxG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Mac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uW-cK-EyO">
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3sY-WP-9N2" firstAttribute="top" secondItem="y8e-ri-Ruf" secondAttribute="bottom" constant="12" id="8NQ-i2-k5j"/>
+                            <constraint firstItem="xJB-JB-9yX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="AJE-hF-pMG"/>
+                            <constraint firstItem="HXN-SG-Lli" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-15.5" id="JhH-5D-P8p"/>
+                            <constraint firstItem="xJB-JB-9yX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-7" id="L14-Ax-QB5"/>
+                            <constraint firstItem="3uW-cK-EyO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="53" id="NIJ-Mj-IEb"/>
+                            <constraint firstItem="CPA-Wg-ZQl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-1" id="OPE-Wi-1aA"/>
+                            <constraint firstItem="Nwt-kC-a6S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-2" id="T1p-wa-duk"/>
+                            <constraint firstItem="xJB-JB-9yX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="TFi-OA-W9w"/>
+                            <constraint firstItem="y8e-ri-Ruf" firstAttribute="top" secondItem="Nwt-kC-a6S" secondAttribute="bottom" constant="11" id="TVT-Dq-MWW"/>
+                            <constraint firstItem="y8e-ri-Ruf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-1" id="XbY-3O-GG8"/>
+                            <constraint firstItem="Nwt-kC-a6S" firstAttribute="top" secondItem="CPA-Wg-ZQl" secondAttribute="bottom" id="bKU-9e-11g"/>
+                            <constraint firstItem="CPA-Wg-ZQl" firstAttribute="top" secondItem="HXN-SG-Lli" secondAttribute="bottom" constant="47" id="fD8-zM-7dB"/>
+                            <constraint firstItem="3sY-WP-9N2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i2T-Lz-xIa"/>
+                            <constraint firstItem="3uW-cK-EyO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-15.5" id="mB5-T5-l92"/>
+                            <constraint firstItem="HXN-SG-Lli" firstAttribute="top" secondItem="xJB-JB-9yX" secondAttribute="bottom" constant="24" id="tij-3I-ahS"/>
+                            <constraint firstItem="CPA-Wg-ZQl" firstAttribute="top" secondItem="HXN-SG-Lli" secondAttribute="bottom" constant="33" id="v5s-DC-57f"/>
+                            <constraint firstItem="3uW-cK-EyO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zFM-6d-3fL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="mB5-T5-l92"/>
+                                <exclude reference="TFi-OA-W9w"/>
+                                <exclude reference="fD8-zM-7dB"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="1pi-EU-KR3" id="vc0-9g-ZNP"/>
+                        <outlet property="hostNameLabel" destination="HXN-SG-Lli" id="vku-8u-xum"/>
+                        <outlet property="lockButton" destination="Nwt-kC-a6S" id="dFk-ub-iao"/>
+                        <outlet property="macImageView" destination="xJB-JB-9yX" id="UKl-qS-sPh"/>
+                        <outlet property="restartButton" destination="y8e-ri-Ruf" id="QH6-M7-1Lx"/>
+                        <outlet property="shutdownButton" destination="3sY-WP-9N2" id="ogW-eH-kHt"/>
+                        <outlet property="statusLabel" destination="0Nw-Ps-qoq" id="OdP-m0-wcl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="235"/>
+        </scene>
+    </scenes>
+</document>

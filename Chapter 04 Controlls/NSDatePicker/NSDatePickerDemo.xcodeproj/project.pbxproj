@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4252FEF01BE0D13C000EAD0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252FEEF1BE0D13C000EAD0E /* AppDelegate.m */; };
+		4252FEF31BE0D13D000EAD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252FEF21BE0D13D000EAD0E /* main.m */; };
+		4252FEF51BE0D13D000EAD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4252FEF41BE0D13D000EAD0E /* Assets.xcassets */; };
+		4252FEF81BE0D13D000EAD0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4252FEF61BE0D13D000EAD0E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4252FEEB1BE0D13C000EAD0E /* NSDatePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDatePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4252FEEE1BE0D13C000EAD0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4252FEEF1BE0D13C000EAD0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4252FEF21BE0D13D000EAD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4252FEF41BE0D13D000EAD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4252FEF71BE0D13D000EAD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4252FEF91BE0D13D000EAD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4252FEE81BE0D13C000EAD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4252FEE21BE0D13C000EAD0E = {
+			isa = PBXGroup;
+			children = (
+				4252FEED1BE0D13C000EAD0E /* NSDatePickerDemo */,
+				4252FEEC1BE0D13C000EAD0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4252FEEC1BE0D13C000EAD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4252FEEB1BE0D13C000EAD0E /* NSDatePickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4252FEED1BE0D13C000EAD0E /* NSDatePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4252FEEE1BE0D13C000EAD0E /* AppDelegate.h */,
+				4252FEEF1BE0D13C000EAD0E /* AppDelegate.m */,
+				4252FEF41BE0D13D000EAD0E /* Assets.xcassets */,
+				4252FEF61BE0D13D000EAD0E /* MainMenu.xib */,
+				4252FEF91BE0D13D000EAD0E /* Info.plist */,
+				4252FEF11BE0D13D000EAD0E /* Supporting Files */,
+			);
+			path = NSDatePickerDemo;
+			sourceTree = "<group>";
+		};
+		4252FEF11BE0D13D000EAD0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4252FEF21BE0D13D000EAD0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4252FEEA1BE0D13C000EAD0E /* NSDatePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4252FEFC1BE0D13D000EAD0E /* Build configuration list for PBXNativeTarget "NSDatePickerDemo" */;
+			buildPhases = (
+				4252FEE71BE0D13C000EAD0E /* Sources */,
+				4252FEE81BE0D13C000EAD0E /* Frameworks */,
+				4252FEE91BE0D13C000EAD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDatePickerDemo;
+			productName = NSDatePickerDemo;
+			productReference = 4252FEEB1BE0D13C000EAD0E /* NSDatePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4252FEE31BE0D13C000EAD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhaojw;
+				TargetAttributes = {
+					4252FEEA1BE0D13C000EAD0E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4252FEE61BE0D13C000EAD0E /* Build configuration list for PBXProject "NSDatePickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4252FEE21BE0D13C000EAD0E;
+			productRefGroup = 4252FEEC1BE0D13C000EAD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4252FEEA1BE0D13C000EAD0E /* NSDatePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4252FEE91BE0D13C000EAD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4252FEF51BE0D13D000EAD0E /* Assets.xcassets in Resources */,
+				4252FEF81BE0D13D000EAD0E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4252FEE71BE0D13C000EAD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4252FEF31BE0D13D000EAD0E /* main.m in Sources */,
+				4252FEF01BE0D13C000EAD0E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4252FEF61BE0D13D000EAD0E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4252FEF71BE0D13D000EAD0E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4252FEFA1BE0D13D000EAD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4252FEFB1BE0D13D000EAD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4252FEFD1BE0D13D000EAD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSDatePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahunt.NSDatePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4252FEFE1BE0D13D000EAD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSDatePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahunt.NSDatePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4252FEE61BE0D13C000EAD0E /* Build configuration list for PBXProject "NSDatePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4252FEFA1BE0D13D000EAD0E /* Debug */,
+				4252FEFB1BE0D13D000EAD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4252FEFC1BE0D13D000EAD0E /* Build configuration list for PBXNativeTarget "NSDatePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4252FEFD1BE0D13D000EAD0E /* Debug */,
+				4252FEFE1BE0D13D000EAD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4252FEE31BE0D13C000EAD0E /* Project object */;
+}

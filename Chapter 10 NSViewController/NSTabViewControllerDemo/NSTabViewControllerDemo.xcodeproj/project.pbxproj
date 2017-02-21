@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A8CC501BE4F5D800BF2464 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A8CC4F1BE4F5D800BF2464 /* Storyboard.storyboard */; };
+		42D7ADBC1BA806F400A06108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7ADBB1BA806F400A06108 /* AppDelegate.m */; };
+		42D7ADBE1BA806F400A06108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7ADBD1BA806F400A06108 /* main.m */; };
+		42D7ADC01BA806F400A06108 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D7ADBF1BA806F400A06108 /* Images.xcassets */; };
+		42D7ADC31BA806F400A06108 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D7ADC11BA806F400A06108 /* MainMenu.xib */; };
+		42D7ADDB1BA8071F00A06108 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7ADD91BA8071F00A06108 /* TabViewController.m */; };
+		42D7ADDC1BA8071F00A06108 /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D7ADDA1BA8071F00A06108 /* TabViewController.xib */; };
+		42D7ADE01BA80A3100A06108 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7ADDE1BA80A3100A06108 /* HomeViewController.m */; };
+		42D7ADE11BA80A3100A06108 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D7ADDF1BA80A3100A06108 /* HomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42A8CC4F1BE4F5D800BF2464 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		42D7ADB51BA806F400A06108 /* NSTabViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTabViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D7ADB91BA806F400A06108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D7ADBA1BA806F400A06108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42D7ADBB1BA806F400A06108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42D7ADBD1BA806F400A06108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42D7ADBF1BA806F400A06108 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42D7ADC21BA806F400A06108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		42D7ADD81BA8071F00A06108 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		42D7ADD91BA8071F00A06108 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		42D7ADDA1BA8071F00A06108 /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		42D7ADDD1BA80A3100A06108 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		42D7ADDE1BA80A3100A06108 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		42D7ADDF1BA80A3100A06108 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D7ADB21BA806F400A06108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D7ADAC1BA806F400A06108 = {
+			isa = PBXGroup;
+			children = (
+				42D7ADB71BA806F400A06108 /* NSTabViewControllerDemo */,
+				42D7ADB61BA806F400A06108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42D7ADB61BA806F400A06108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D7ADB51BA806F400A06108 /* NSTabViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D7ADB71BA806F400A06108 /* NSTabViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42D7ADBA1BA806F400A06108 /* AppDelegate.h */,
+				42D7ADBB1BA806F400A06108 /* AppDelegate.m */,
+				42D7ADDD1BA80A3100A06108 /* HomeViewController.h */,
+				42D7ADDE1BA80A3100A06108 /* HomeViewController.m */,
+				42D7ADDF1BA80A3100A06108 /* HomeViewController.xib */,
+				42D7ADD81BA8071F00A06108 /* TabViewController.h */,
+				42D7ADD91BA8071F00A06108 /* TabViewController.m */,
+				42D7ADDA1BA8071F00A06108 /* TabViewController.xib */,
+				42D7ADBF1BA806F400A06108 /* Images.xcassets */,
+				42D7ADC11BA806F400A06108 /* MainMenu.xib */,
+				42A8CC4F1BE4F5D800BF2464 /* Storyboard.storyboard */,
+				42D7ADB81BA806F400A06108 /* Supporting Files */,
+			);
+			path = NSTabViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		42D7ADB81BA806F400A06108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42D7ADB91BA806F400A06108 /* Info.plist */,
+				42D7ADBD1BA806F400A06108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D7ADB41BA806F400A06108 /* NSTabViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D7ADD21BA806F400A06108 /* Build configuration list for PBXNativeTarget "NSTabViewControllerDemo" */;
+			buildPhases = (
+				42D7ADB11BA806F400A06108 /* Sources */,
+				42D7ADB21BA806F400A06108 /* Frameworks */,
+				42D7ADB31BA806F400A06108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTabViewControllerDemo;
+			productName = NSTabViewControllerDemo;
+			productReference = 42D7ADB51BA806F400A06108 /* NSTabViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D7ADAD1BA806F400A06108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = zhaojw;
+				TargetAttributes = {
+					42D7ADB41BA806F400A06108 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 42D7ADB01BA806F400A06108 /* Build configuration list for PBXProject "NSTabViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42D7ADAC1BA806F400A06108;
+			productRefGroup = 42D7ADB61BA806F400A06108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D7ADB41BA806F400A06108 /* NSTabViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D7ADB31BA806F400A06108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D7ADC01BA806F400A06108 /* Images.xcassets in Resources */,
+				42D7ADC31BA806F400A06108 /* MainMenu.xib in Resources */,
+				42D7ADDC1BA8071F00A06108 /* TabViewController.xib in Resources */,
+				42D7ADE11BA80A3100A06108 /* HomeViewController.xib in Resources */,
+				42A8CC501BE4F5D800BF2464 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D7ADB11BA806F400A06108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D7ADDB1BA8071F00A06108 /* TabViewController.m in Sources */,
+				42D7ADBE1BA806F400A06108 /* main.m in Sources */,
+				42D7ADBC1BA806F400A06108 /* AppDelegate.m in Sources */,
+				42D7ADE01BA80A3100A06108 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42D7ADC11BA806F400A06108 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D7ADC21BA806F400A06108 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D7ADD01BA806F400A06108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		42D7ADD11BA806F400A06108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		42D7ADD31BA806F400A06108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTabViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42D7ADD41BA806F400A06108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTabViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D7ADB01BA806F400A06108 /* Build configuration list for PBXProject "NSTabViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D7ADD01BA806F400A06108 /* Debug */,
+				42D7ADD11BA806F400A06108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D7ADD21BA806F400A06108 /* Build configuration list for PBXNativeTarget "NSTabViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D7ADD31BA806F400A06108 /* Debug */,
+				42D7ADD41BA806F400A06108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D7ADAD1BA806F400A06108 /* Project object */;
+}

@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4252FEB31BDE0AE6000EAD0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252FEB21BDE0AE6000EAD0E /* AppDelegate.m */; };
+		4252FEB61BDE0AE6000EAD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252FEB51BDE0AE6000EAD0E /* main.m */; };
+		4252FEB81BDE0AE6000EAD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4252FEB71BDE0AE6000EAD0E /* Assets.xcassets */; };
+		4252FEBB1BDE0AE6000EAD0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4252FEB91BDE0AE6000EAD0E /* MainMenu.xib */; };
+		4252FEC41BDE0B6A000EAD0E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4252FEC31BDE0B6A000EAD0E /* CloudKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4252FEAE1BDE0AE6000EAD0E /* iCloudKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4252FEB11BDE0AE6000EAD0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4252FEB21BDE0AE6000EAD0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4252FEB51BDE0AE6000EAD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4252FEB71BDE0AE6000EAD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4252FEBA1BDE0AE6000EAD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4252FEBC1BDE0AE6000EAD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4252FEC21BDE0B60000EAD0E /* iCloudKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iCloudKitDemo.entitlements; sourceTree = "<group>"; };
+		4252FEC31BDE0B6A000EAD0E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4252FEAB1BDE0AE6000EAD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4252FEC41BDE0B6A000EAD0E /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4252FEA51BDE0AE6000EAD0E = {
+			isa = PBXGroup;
+			children = (
+				4252FEC31BDE0B6A000EAD0E /* CloudKit.framework */,
+				4252FEB01BDE0AE6000EAD0E /* iCloudKitDemo */,
+				4252FEAF1BDE0AE6000EAD0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4252FEAF1BDE0AE6000EAD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4252FEAE1BDE0AE6000EAD0E /* iCloudKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4252FEB01BDE0AE6000EAD0E /* iCloudKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4252FEC21BDE0B60000EAD0E /* iCloudKitDemo.entitlements */,
+				4252FEB11BDE0AE6000EAD0E /* AppDelegate.h */,
+				4252FEB21BDE0AE6000EAD0E /* AppDelegate.m */,
+				4252FEB71BDE0AE6000EAD0E /* Assets.xcassets */,
+				4252FEB91BDE0AE6000EAD0E /* MainMenu.xib */,
+				4252FEBC1BDE0AE6000EAD0E /* Info.plist */,
+				4252FEB41BDE0AE6000EAD0E /* Supporting Files */,
+			);
+			path = iCloudKitDemo;
+			sourceTree = "<group>";
+		};
+		4252FEB41BDE0AE6000EAD0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4252FEB51BDE0AE6000EAD0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4252FEAD1BDE0AE6000EAD0E /* iCloudKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4252FEBF1BDE0AE6000EAD0E /* Build configuration list for PBXNativeTarget "iCloudKitDemo" */;
+			buildPhases = (
+				4252FEAA1BDE0AE6000EAD0E /* Sources */,
+				4252FEAB1BDE0AE6000EAD0E /* Frameworks */,
+				4252FEAC1BDE0AE6000EAD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCloudKitDemo;
+			productName = iCloudKitDemo;
+			productReference = 4252FEAE1BDE0AE6000EAD0E /* iCloudKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4252FEA61BDE0AE6000EAD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhaojw;
+				TargetAttributes = {
+					4252FEAD1BDE0AE6000EAD0E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9T9M9U87UY;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4252FEA91BDE0AE6000EAD0E /* Build configuration list for PBXProject "iCloudKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4252FEA51BDE0AE6000EAD0E;
+			productRefGroup = 4252FEAF1BDE0AE6000EAD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4252FEAD1BDE0AE6000EAD0E /* iCloudKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4252FEAC1BDE0AE6000EAD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4252FEB81BDE0AE6000EAD0E /* Assets.xcassets in Resources */,
+				4252FEBB1BDE0AE6000EAD0E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4252FEAA1BDE0AE6000EAD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4252FEB61BDE0AE6000EAD0E /* main.m in Sources */,
+				4252FEB31BDE0AE6000EAD0E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4252FEB91BDE0AE6000EAD0E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4252FEBA1BDE0AE6000EAD0E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4252FEBD1BDE0AE6000EAD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4252FEBE1BDE0AE6000EAD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4252FEC01BDE0AE6000EAD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iCloudKitDemo/iCloudKitDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iCloudKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahunt.iCloudKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4252FEC11BDE0AE6000EAD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iCloudKitDemo/iCloudKitDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iCloudKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahunt.iCloudKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4252FEA91BDE0AE6000EAD0E /* Build configuration list for PBXProject "iCloudKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4252FEBD1BDE0AE6000EAD0E /* Debug */,
+				4252FEBE1BDE0AE6000EAD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4252FEBF1BDE0AE6000EAD0E /* Build configuration list for PBXNativeTarget "iCloudKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4252FEC01BDE0AE6000EAD0E /* Debug */,
+				4252FEC11BDE0AE6000EAD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4252FEA61BDE0AE6000EAD0E /* Project object */;
+}

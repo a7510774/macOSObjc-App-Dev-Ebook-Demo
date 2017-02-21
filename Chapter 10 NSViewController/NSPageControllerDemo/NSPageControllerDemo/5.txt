@@ -1,0 +1,1 @@
+A window controller can manage a window by itself or as a role player in the Application Kit’s document-based architecture, which also includes NSDocument and NSDocumentController objects. In this architecture, a window controller is created and managed by a “document” (an instance of an NSDocument subclass) and, in turn, keeps a reference to the document.

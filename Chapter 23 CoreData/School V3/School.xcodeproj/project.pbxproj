@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425B03D81C37764C0033C85D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B03D71C37764C0033C85D /* AppDelegate.m */; };
+		425B03DB1C37764C0033C85D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B03DA1C37764C0033C85D /* main.m */; };
+		425B03E01C37764C0033C85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B03DF1C37764C0033C85D /* Assets.xcassets */; };
+		425B03E31C37764C0033C85D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425B03E11C37764C0033C85D /* MainMenu.xib */; };
+		425B03EC1C37774C0033C85D /* School.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 425B03EA1C37774C0033C85D /* School.xcdatamodeld */; };
+		425B04B71C3947850033C85D /* Classes+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04A01C3947850033C85D /* Classes+CoreDataProperties.m */; };
+		425B04B81C3947850033C85D /* Classes.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04A21C3947850033C85D /* Classes.m */; };
+		425B04B91C3947850033C85D /* ClassesInfo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04A41C3947850033C85D /* ClassesInfo+CoreDataProperties.m */; };
+		425B04BA1C3947850033C85D /* ClassesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04A61C3947850033C85D /* ClassesInfo.m */; };
+		425B04BB1C3947850033C85D /* Students+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04A81C3947850033C85D /* Students+CoreDataProperties.m */; };
+		425B04BC1C3947850033C85D /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04AA1C3947850033C85D /* Students.m */; };
+		425B04BD1C3947850033C85D /* Profile+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04AC1C3947850033C85D /* Profile+CoreDataProperties.m */; };
+		425B04BE1C3947850033C85D /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04AE1C3947850033C85D /* Profile.m */; };
+		425B04BF1C3947850033C85D /* Subjects+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04B01C3947850033C85D /* Subjects+CoreDataProperties.m */; };
+		425B04C01C3947850033C85D /* Subjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04B21C3947850033C85D /* Subjects.m */; };
+		425B04C11C3947850033C85D /* Teacher+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04B41C3947850033C85D /* Teacher+CoreDataProperties.m */; };
+		425B04C21C3947850033C85D /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B04B61C3947850033C85D /* Teacher.m */; };
+		425B04C61C394E330033C85D /* SchoolV2_V3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 425B04C51C394E330033C85D /* SchoolV2_V3.xcmappingmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		425B03D31C37764C0033C85D /* School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425B03D61C37764C0033C85D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		425B03D71C37764C0033C85D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		425B03DA1C37764C0033C85D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425B03DF1C37764C0033C85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		425B03E21C37764C0033C85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		425B03E41C37764C0033C85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425B03EB1C37774C0033C85D /* School.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School.xcdatamodel; sourceTree = "<group>"; };
+		425B041D1C38D4260033C85D /* SchoolV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolV2.xcdatamodel; sourceTree = "<group>"; };
+		425B049E1C39470B0033C85D /* SchoolV3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolV3.xcdatamodel; sourceTree = "<group>"; };
+		425B049F1C3947850033C85D /* Classes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Classes+CoreDataProperties.h"; sourceTree = "<group>"; };
+		425B04A01C3947850033C85D /* Classes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Classes+CoreDataProperties.m"; sourceTree = "<group>"; };
+		425B04A11C3947850033C85D /* Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classes.h; sourceTree = "<group>"; };
+		425B04A21C3947850033C85D /* Classes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Classes.m; sourceTree = "<group>"; };
+		425B04A31C3947850033C85D /* ClassesInfo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClassesInfo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		425B04A41C3947850033C85D /* ClassesInfo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ClassesInfo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		425B04A51C3947850033C85D /* ClassesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassesInfo.h; sourceTree = "<group>"; };
+		425B04A61C3947850033C85D /* ClassesInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassesInfo.m; sourceTree = "<group>"; };
+		425B04A71C3947850033C85D /* Students+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Students+CoreDataProperties.h"; sourceTree = "<group>"; };
+		425B04A81C3947850033C85D /* Students+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Students+CoreDataProperties.m"; sourceTree = "<group>"; };
+		425B04A91C3947850033C85D /* Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Students.h; sourceTree = "<group>"; };
+		425B04AA1C3947850033C85D /* Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
+		425B04AB1C3947850033C85D /* Profile+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Profile+CoreDataProperties.h"; sourceTree = "<group>"; };
+		425B04AC1C3947850033C85D /* Profile+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Profile+CoreDataProperties.m"; sourceTree = "<group>"; };
+		425B04AD1C3947850033C85D /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		425B04AE1C3947850033C85D /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		425B04AF1C3947850033C85D /* Subjects+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Subjects+CoreDataProperties.h"; sourceTree = "<group>"; };
+		425B04B01C3947850033C85D /* Subjects+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Subjects+CoreDataProperties.m"; sourceTree = "<group>"; };
+		425B04B11C3947850033C85D /* Subjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subjects.h; sourceTree = "<group>"; };
+		425B04B21C3947850033C85D /* Subjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subjects.m; sourceTree = "<group>"; };
+		425B04B31C3947850033C85D /* Teacher+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataProperties.h"; sourceTree = "<group>"; };
+		425B04B41C3947850033C85D /* Teacher+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataProperties.m"; sourceTree = "<group>"; };
+		425B04B51C3947850033C85D /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		425B04B61C3947850033C85D /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		425B04C51C394E330033C85D /* SchoolV2_V3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = SchoolV2_V3.xcmappingmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425B03D01C37764C0033C85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425B03CA1C37764C0033C85D = {
+			isa = PBXGroup;
+			children = (
+				425B03D51C37764C0033C85D /* School */,
+				425B03D41C37764C0033C85D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425B03D41C37764C0033C85D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425B03D31C37764C0033C85D /* School.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425B03D51C37764C0033C85D /* School */ = {
+			isa = PBXGroup;
+			children = (
+				425B03D61C37764C0033C85D /* AppDelegate.h */,
+				425B03D71C37764C0033C85D /* AppDelegate.m */,
+				425B03DF1C37764C0033C85D /* Assets.xcassets */,
+				425B03E11C37764C0033C85D /* MainMenu.xib */,
+				425B03EA1C37774C0033C85D /* School.xcdatamodeld */,
+				425B049F1C3947850033C85D /* Classes+CoreDataProperties.h */,
+				425B04C51C394E330033C85D /* SchoolV2_V3.xcmappingmodel */,
+				425B04A01C3947850033C85D /* Classes+CoreDataProperties.m */,
+				425B04A11C3947850033C85D /* Classes.h */,
+				425B04A21C3947850033C85D /* Classes.m */,
+				425B04A31C3947850033C85D /* ClassesInfo+CoreDataProperties.h */,
+				425B04A41C3947850033C85D /* ClassesInfo+CoreDataProperties.m */,
+				425B04A51C3947850033C85D /* ClassesInfo.h */,
+				425B04A61C3947850033C85D /* ClassesInfo.m */,
+				425B04A71C3947850033C85D /* Students+CoreDataProperties.h */,
+				425B04A81C3947850033C85D /* Students+CoreDataProperties.m */,
+				425B04A91C3947850033C85D /* Students.h */,
+				425B04AA1C3947850033C85D /* Students.m */,
+				425B04AB1C3947850033C85D /* Profile+CoreDataProperties.h */,
+				425B04AC1C3947850033C85D /* Profile+CoreDataProperties.m */,
+				425B04AD1C3947850033C85D /* Profile.h */,
+				425B04AE1C3947850033C85D /* Profile.m */,
+				425B04AF1C3947850033C85D /* Subjects+CoreDataProperties.h */,
+				425B04B01C3947850033C85D /* Subjects+CoreDataProperties.m */,
+				425B04B11C3947850033C85D /* Subjects.h */,
+				425B04B21C3947850033C85D /* Subjects.m */,
+				425B04B31C3947850033C85D /* Teacher+CoreDataProperties.h */,
+				425B04B41C3947850033C85D /* Teacher+CoreDataProperties.m */,
+				425B04B51C3947850033C85D /* Teacher.h */,
+				425B04B61C3947850033C85D /* Teacher.m */,
+				425B03E41C37764C0033C85D /* Info.plist */,
+				425B03D91C37764C0033C85D /* Supporting Files */,
+			);
+			path = School;
+			sourceTree = "<group>";
+		};
+		425B03D91C37764C0033C85D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425B03DA1C37764C0033C85D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425B03D21C37764C0033C85D /* School */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425B03E71C37764C0033C85D /* Build configuration list for PBXNativeTarget "School" */;
+			buildPhases = (
+				425B03CF1C37764C0033C85D /* Sources */,
+				425B03D01C37764C0033C85D /* Frameworks */,
+				425B03D11C37764C0033C85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = School;
+			productName = School;
+			productReference = 425B03D31C37764C0033C85D /* School.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425B03CB1C37764C0033C85D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MacDev.io;
+				TargetAttributes = {
+					425B03D21C37764C0033C85D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 425B03CE1C37764C0033C85D /* Build configuration list for PBXProject "School" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 425B03CA1C37764C0033C85D;
+			productRefGroup = 425B03D41C37764C0033C85D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425B03D21C37764C0033C85D /* School */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425B03D11C37764C0033C85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425B03E01C37764C0033C85D /* Assets.xcassets in Resources */,
+				425B03E31C37764C0033C85D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425B03CF1C37764C0033C85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425B04BE1C3947850033C85D /* Profile.m in Sources */,
+				425B04B71C3947850033C85D /* Classes+CoreDataProperties.m in Sources */,
+				425B04BD1C3947850033C85D /* Profile+CoreDataProperties.m in Sources */,
+				425B04C21C3947850033C85D /* Teacher.m in Sources */,
+				425B03DB1C37764C0033C85D /* main.m in Sources */,
+				425B04C01C3947850033C85D /* Subjects.m in Sources */,
+				425B04BC1C3947850033C85D /* Students.m in Sources */,
+				425B04C11C3947850033C85D /* Teacher+CoreDataProperties.m in Sources */,
+				425B04C61C394E330033C85D /* SchoolV2_V3.xcmappingmodel in Sources */,
+				425B04B91C3947850033C85D /* ClassesInfo+CoreDataProperties.m in Sources */,
+				425B04BF1C3947850033C85D /* Subjects+CoreDataProperties.m in Sources */,
+				425B04B81C3947850033C85D /* Classes.m in Sources */,
+				425B03EC1C37774C0033C85D /* School.xcdatamodeld in Sources */,
+				425B04BB1C3947850033C85D /* Students+CoreDataProperties.m in Sources */,
+				425B04BA1C3947850033C85D /* ClassesInfo.m in Sources */,
+				425B03D81C37764C0033C85D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		425B03E11C37764C0033C85D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425B03E21C37764C0033C85D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		425B03E51C37764C0033C85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		425B03E61C37764C0033C85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		425B03E81C37764C0033C85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = School/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.School;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		425B03E91C37764C0033C85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = School/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.School;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425B03CE1C37764C0033C85D /* Build configuration list for PBXProject "School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425B03E51C37764C0033C85D /* Debug */,
+				425B03E61C37764C0033C85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425B03E71C37764C0033C85D /* Build configuration list for PBXNativeTarget "School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425B03E81C37764C0033C85D /* Debug */,
+				425B03E91C37764C0033C85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		425B03EA1C37774C0033C85D /* School.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				425B049E1C39470B0033C85D /* SchoolV3.xcdatamodel */,
+				425B041D1C38D4260033C85D /* SchoolV2.xcdatamodel */,
+				425B03EB1C37774C0033C85D /* School.xcdatamodel */,
+			);
+			currentVersion = 425B049E1C39470B0033C85D /* SchoolV3.xcdatamodel */;
+			path = School.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 425B03CB1C37764C0033C85D /* Project object */;
+}

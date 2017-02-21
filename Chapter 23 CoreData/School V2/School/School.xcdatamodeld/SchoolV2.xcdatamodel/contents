@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="Classes" representedClassName="Classes" syncable="YES">
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="slogan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="studentsNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="classStudents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Students" inverseName="classes" inverseEntity="Students" syncable="YES"/>
+        <relationship name="monitor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Students" syncable="YES"/>
+        <relationship name="teacher" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Teacher" inverseName="adminClasses" inverseEntity="Teacher" syncable="YES"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="homephone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="student" maxCount="1" deletionRule="Nullify" destinationEntity="Students" inverseName="profile" inverseEntity="Students" syncable="YES"/>
+    </entity>
+    <entity name="Students" representedClassName="Students" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="classes" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Classes" inverseName="classStudents" inverseEntity="Classes" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Profile" inverseName="student" inverseEntity="Profile" syncable="YES"/>
+        <relationship name="subjects" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Subjects" inverseName="subjectStudents" inverseEntity="Subjects" syncable="YES"/>
+    </entity>
+    <entity name="Subjects" representedClassName="Subjects" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="subjectStudents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Students" inverseName="subjects" inverseEntity="Students" syncable="YES"/>
+    </entity>
+    <entity name="Teacher" representedClassName="Teacher" syncable="YES">
+        <attribute name="adminClass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="adminClasses" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Classes" inverseName="teacher" inverseEntity="Classes" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Classes" positionX="-1676" positionY="-2407" width="128" height="148"/>
+        <element name="Profile" positionX="-1485" positionY="-2287" width="128" height="118"/>
+        <element name="Students" positionX="-1836" positionY="-2269" width="128" height="118"/>
+        <element name="Subjects" positionX="-1370" positionY="-2412" width="128" height="88"/>
+        <element name="Teacher" positionX="-1532" positionY="-2529" width="128" height="88"/>
+    </elements>
+</model>

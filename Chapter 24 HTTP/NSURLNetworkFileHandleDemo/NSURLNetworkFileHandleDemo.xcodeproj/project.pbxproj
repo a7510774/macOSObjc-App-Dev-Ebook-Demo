@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4299C68C1C79AD9900063213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C68B1C79AD9900063213 /* AppDelegate.m */; };
+		4299C68F1C79AD9900063213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C68E1C79AD9900063213 /* main.m */; };
+		4299C6911C79AD9900063213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4299C6901C79AD9900063213 /* Assets.xcassets */; };
+		4299C6941C79AD9900063213 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4299C6921C79AD9900063213 /* MainMenu.xib */; };
+		4299C6BD1C7A8E7C00063213 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6BC1C7A8E7C00063213 /* Aspects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4299C6871C79AD9900063213 /* NSURLNetworkFileHandleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLNetworkFileHandleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4299C68A1C79AD9900063213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4299C68B1C79AD9900063213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4299C68E1C79AD9900063213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4299C6901C79AD9900063213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4299C6931C79AD9900063213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4299C6951C79AD9900063213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4299C6BB1C7A8E7C00063213 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		4299C6BC1C7A8E7C00063213 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4299C6841C79AD9900063213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4299C67E1C79AD9900063213 = {
+			isa = PBXGroup;
+			children = (
+				4299C6891C79AD9900063213 /* NSURLNetworkFileHandleDemo */,
+				4299C6881C79AD9900063213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4299C6881C79AD9900063213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4299C6871C79AD9900063213 /* NSURLNetworkFileHandleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4299C6891C79AD9900063213 /* NSURLNetworkFileHandleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4299C68A1C79AD9900063213 /* AppDelegate.h */,
+				4299C68B1C79AD9900063213 /* AppDelegate.m */,
+				4299C6BB1C7A8E7C00063213 /* Aspects.h */,
+				4299C6BC1C7A8E7C00063213 /* Aspects.m */,
+				4299C6901C79AD9900063213 /* Assets.xcassets */,
+				4299C6921C79AD9900063213 /* MainMenu.xib */,
+				4299C6951C79AD9900063213 /* Info.plist */,
+				4299C68D1C79AD9900063213 /* Supporting Files */,
+			);
+			path = NSURLNetworkFileHandleDemo;
+			sourceTree = "<group>";
+		};
+		4299C68D1C79AD9900063213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4299C68E1C79AD9900063213 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4299C6861C79AD9900063213 /* NSURLNetworkFileHandleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4299C6981C79AD9900063213 /* Build configuration list for PBXNativeTarget "NSURLNetworkFileHandleDemo" */;
+			buildPhases = (
+				4299C6831C79AD9900063213 /* Sources */,
+				4299C6841C79AD9900063213 /* Frameworks */,
+				4299C6851C79AD9900063213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSURLNetworkFileHandleDemo;
+			productName = NSURLNetworkFileHandleDemo;
+			productReference = 4299C6871C79AD9900063213 /* NSURLNetworkFileHandleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4299C67F1C79AD9900063213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MacDev.io;
+				TargetAttributes = {
+					4299C6861C79AD9900063213 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4299C6821C79AD9900063213 /* Build configuration list for PBXProject "NSURLNetworkFileHandleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4299C67E1C79AD9900063213;
+			productRefGroup = 4299C6881C79AD9900063213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4299C6861C79AD9900063213 /* NSURLNetworkFileHandleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4299C6851C79AD9900063213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4299C6911C79AD9900063213 /* Assets.xcassets in Resources */,
+				4299C6941C79AD9900063213 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4299C6831C79AD9900063213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4299C68F1C79AD9900063213 /* main.m in Sources */,
+				4299C68C1C79AD9900063213 /* AppDelegate.m in Sources */,
+				4299C6BD1C7A8E7C00063213 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4299C6921C79AD9900063213 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4299C6931C79AD9900063213 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4299C6961C79AD9900063213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4299C6971C79AD9900063213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4299C6991C79AD9900063213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSURLNetworkFileHandleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.NSURLNetworkFileHandleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4299C69A1C79AD9900063213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSURLNetworkFileHandleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.NSURLNetworkFileHandleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4299C6821C79AD9900063213 /* Build configuration list for PBXProject "NSURLNetworkFileHandleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4299C6961C79AD9900063213 /* Debug */,
+				4299C6971C79AD9900063213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4299C6981C79AD9900063213 /* Build configuration list for PBXNativeTarget "NSURLNetworkFileHandleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4299C6991C79AD9900063213 /* Debug */,
+				4299C69A1C79AD9900063213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4299C67F1C79AD9900063213 /* Project object */;
+}

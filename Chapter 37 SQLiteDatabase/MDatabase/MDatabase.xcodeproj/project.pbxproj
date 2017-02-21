@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71F1B8021D07DD3B00ED0144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8011D07DD3B00ED0144 /* AppDelegate.m */; };
+		71F1B8051D07DD3B00ED0144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8041D07DD3B00ED0144 /* main.m */; };
+		71F1B8071D07DD3B00ED0144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F1B8061D07DD3B00ED0144 /* Assets.xcassets */; };
+		71F1B80A1D07DD3B00ED0144 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F1B8081D07DD3B00ED0144 /* MainMenu.xib */; };
+		71F1B81E1D07DDC000ED0144 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8131D07DDC000ED0144 /* FMDatabase.m */; };
+		71F1B81F1D07DDC000ED0144 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8151D07DDC000ED0144 /* FMDatabaseAdditions.m */; };
+		71F1B8201D07DDC000ED0144 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8171D07DDC000ED0144 /* FMDatabasePool.m */; };
+		71F1B8211D07DDC000ED0144 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8191D07DDC000ED0144 /* FMDatabaseQueue.m */; };
+		71F1B8221D07DDC000ED0144 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B81C1D07DDC000ED0144 /* FMResultSet.m */; };
+		71F1B8231D07DDC000ED0144 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71F1B81D1D07DDC000ED0144 /* Info.plist */; };
+		71F1B8251D07DDD400ED0144 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F1B8241D07DDD400ED0144 /* libsqlite3.0.tbd */; };
+		71F1B8291D07DE3000ED0144 /* MDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8281D07DE3000ED0144 /* MDatabase.m */; };
+		71F1B82C1D07DE4900ED0144 /* MDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B82B1D07DE4900ED0144 /* MDAO.m */; };
+		71F1B82F1D07DE5A00ED0144 /* MModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B82E1D07DE5A00ED0144 /* MModel.m */; };
+		71F1B8321D081B6200ED0144 /* DatabaseDemo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 71F1B8311D081B6200ED0144 /* DatabaseDemo.sqlite */; };
+		71F1B8371D081B8F00ED0144 /* PersonDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8361D081B8F00ED0144 /* PersonDAO.m */; };
+		71F1B83A1D081B9600ED0144 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8391D081B9600ED0144 /* Person.m */; };
+		71F1B8401D082AAA00ED0144 /* DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B83F1D082AAA00ED0144 /* DAO.m */; };
+		71F1B8471D0917D800ED0144 /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8461D0917D800ED0144 /* Table.m */; };
+		71F1B84A1D0917E600ED0144 /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8491D0917E600ED0144 /* Field.m */; };
+		71F1B8501D091D6300ED0144 /* MDatabase+Meta.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B84F1D091D6300ED0144 /* MDatabase+Meta.m */; };
+		71F1B8531D09248800ED0144 /* TypeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8521D09248800ED0144 /* TypeKit.m */; };
+		71F1B8571D0951F100ED0144 /* DMTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B8561D0951F100ED0144 /* DMTemplateEngine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		71F1B85B1D09521E00ED0144 /* Model.mp in Resources */ = {isa = PBXBuildFile; fileRef = 71F1B85A1D09521E00ED0144 /* Model.mp */; };
+		71F1B85E1D09525000ED0144 /* CodeGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F1B85D1D09525000ED0144 /* CodeGenerate.m */; };
+		71F1B85F1D09568800ED0144 /* Model.hp in Resources */ = {isa = PBXBuildFile; fileRef = 71F1B8591D09521E00ED0144 /* Model.hp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71F1B7FD1D07DD3B00ED0144 /* MDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F1B8001D07DD3B00ED0144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71F1B8011D07DD3B00ED0144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71F1B8041D07DD3B00ED0144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71F1B8061D07DD3B00ED0144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F1B8091D07DD3B00ED0144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		71F1B80B1D07DD3B00ED0144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F1B8121D07DDC000ED0144 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		71F1B8131D07DDC000ED0144 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		71F1B8141D07DDC000ED0144 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		71F1B8151D07DDC000ED0144 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		71F1B8161D07DDC000ED0144 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		71F1B8171D07DDC000ED0144 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		71F1B8181D07DDC000ED0144 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		71F1B8191D07DDC000ED0144 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		71F1B81A1D07DDC000ED0144 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		71F1B81B1D07DDC000ED0144 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		71F1B81C1D07DDC000ED0144 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		71F1B81D1D07DDC000ED0144 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F1B8241D07DDD400ED0144 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		71F1B8271D07DE3000ED0144 /* MDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDatabase.h; sourceTree = "<group>"; };
+		71F1B8281D07DE3000ED0144 /* MDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDatabase.m; sourceTree = "<group>"; };
+		71F1B82A1D07DE4900ED0144 /* MDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAO.h; sourceTree = "<group>"; };
+		71F1B82B1D07DE4900ED0144 /* MDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAO.m; sourceTree = "<group>"; };
+		71F1B82D1D07DE5A00ED0144 /* MModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MModel.h; sourceTree = "<group>"; };
+		71F1B82E1D07DE5A00ED0144 /* MModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MModel.m; sourceTree = "<group>"; };
+		71F1B8301D08131A00ED0144 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		71F1B8311D081B6200ED0144 /* DatabaseDemo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DatabaseDemo.sqlite; sourceTree = "<group>"; };
+		71F1B8351D081B8F00ED0144 /* PersonDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDAO.h; sourceTree = "<group>"; };
+		71F1B8361D081B8F00ED0144 /* PersonDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDAO.m; sourceTree = "<group>"; };
+		71F1B8381D081B9600ED0144 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		71F1B8391D081B9600ED0144 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		71F1B83E1D082AAA00ED0144 /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
+		71F1B83F1D082AAA00ED0144 /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
+		71F1B8451D0917D800ED0144 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		71F1B8461D0917D800ED0144 /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		71F1B8481D0917E600ED0144 /* Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		71F1B8491D0917E600ED0144 /* Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Field.m; sourceTree = "<group>"; };
+		71F1B84E1D091D6300ED0144 /* MDatabase+Meta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MDatabase+Meta.h"; path = "MDatabase/DBObject/MDatabase+Meta.h"; sourceTree = SOURCE_ROOT; };
+		71F1B84F1D091D6300ED0144 /* MDatabase+Meta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MDatabase+Meta.m"; path = "MDatabase/DBObject/MDatabase+Meta.m"; sourceTree = SOURCE_ROOT; };
+		71F1B8511D09248800ED0144 /* TypeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeKit.h; sourceTree = "<group>"; };
+		71F1B8521D09248800ED0144 /* TypeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeKit.m; sourceTree = "<group>"; };
+		71F1B8551D0951F100ED0144 /* DMTemplateEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTemplateEngine.h; sourceTree = "<group>"; };
+		71F1B8561D0951F100ED0144 /* DMTemplateEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTemplateEngine.m; sourceTree = "<group>"; };
+		71F1B8591D09521E00ED0144 /* Model.hp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Model.hp; sourceTree = "<group>"; };
+		71F1B85A1D09521E00ED0144 /* Model.mp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Model.mp; sourceTree = "<group>"; };
+		71F1B85C1D09525000ED0144 /* CodeGenerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeGenerate.h; sourceTree = "<group>"; };
+		71F1B85D1D09525000ED0144 /* CodeGenerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeGenerate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F1B7FA1D07DD3B00ED0144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F1B8251D07DDD400ED0144 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71F1B7F41D07DD3B00ED0144 = {
+			isa = PBXGroup;
+			children = (
+				71F1B8241D07DDD400ED0144 /* libsqlite3.0.tbd */,
+				71F1B7FF1D07DD3B00ED0144 /* MDatabase */,
+				71F1B7FE1D07DD3B00ED0144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71F1B7FE1D07DD3B00ED0144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B7FD1D07DD3B00ED0144 /* MDatabase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F1B7FF1D07DD3B00ED0144 /* MDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8581D09520900ED0144 /* CodeGenerate */,
+				71F1B8541D0951E100ED0144 /* DMTemplateEngine */,
+				71F1B8331D081B8700ED0144 /* DAO */,
+				71F1B8341D081B8700ED0144 /* Model */,
+				71F1B8261D07DE1B00ED0144 /* DBObject */,
+				71F1B8111D07DDC000ED0144 /* fmdb */,
+				71F1B8001D07DD3B00ED0144 /* AppDelegate.h */,
+				71F1B8011D07DD3B00ED0144 /* AppDelegate.m */,
+				71F1B8311D081B6200ED0144 /* DatabaseDemo.sqlite */,
+				71F1B8061D07DD3B00ED0144 /* Assets.xcassets */,
+				71F1B8081D07DD3B00ED0144 /* MainMenu.xib */,
+				71F1B80B1D07DD3B00ED0144 /* Info.plist */,
+				71F1B8031D07DD3B00ED0144 /* Supporting Files */,
+			);
+			path = MDatabase;
+			sourceTree = "<group>";
+		};
+		71F1B8031D07DD3B00ED0144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8041D07DD3B00ED0144 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71F1B8111D07DDC000ED0144 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8121D07DDC000ED0144 /* FMDatabase.h */,
+				71F1B8131D07DDC000ED0144 /* FMDatabase.m */,
+				71F1B8141D07DDC000ED0144 /* FMDatabaseAdditions.h */,
+				71F1B8151D07DDC000ED0144 /* FMDatabaseAdditions.m */,
+				71F1B8161D07DDC000ED0144 /* FMDatabasePool.h */,
+				71F1B8171D07DDC000ED0144 /* FMDatabasePool.m */,
+				71F1B8181D07DDC000ED0144 /* FMDatabaseQueue.h */,
+				71F1B8191D07DDC000ED0144 /* FMDatabaseQueue.m */,
+				71F1B81A1D07DDC000ED0144 /* FMDB.h */,
+				71F1B81B1D07DDC000ED0144 /* FMResultSet.h */,
+				71F1B81C1D07DDC000ED0144 /* FMResultSet.m */,
+				71F1B81D1D07DDC000ED0144 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		71F1B8261D07DE1B00ED0144 /* DBObject */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8411D09167400ED0144 /* Meta */,
+				71F1B8301D08131A00ED0144 /* Macros.h */,
+				71F1B8271D07DE3000ED0144 /* MDatabase.h */,
+				71F1B8281D07DE3000ED0144 /* MDatabase.m */,
+				71F1B82A1D07DE4900ED0144 /* MDAO.h */,
+				71F1B82B1D07DE4900ED0144 /* MDAO.m */,
+				71F1B82D1D07DE5A00ED0144 /* MModel.h */,
+				71F1B82E1D07DE5A00ED0144 /* MModel.m */,
+				71F1B83E1D082AAA00ED0144 /* DAO.h */,
+				71F1B83F1D082AAA00ED0144 /* DAO.m */,
+			);
+			path = DBObject;
+			sourceTree = "<group>";
+		};
+		71F1B8331D081B8700ED0144 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8351D081B8F00ED0144 /* PersonDAO.h */,
+				71F1B8361D081B8F00ED0144 /* PersonDAO.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		71F1B8341D081B8700ED0144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8381D081B9600ED0144 /* Person.h */,
+				71F1B8391D081B9600ED0144 /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71F1B8411D09167400ED0144 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8451D0917D800ED0144 /* Table.h */,
+				71F1B8461D0917D800ED0144 /* Table.m */,
+				71F1B8481D0917E600ED0144 /* Field.h */,
+				71F1B8491D0917E600ED0144 /* Field.m */,
+				71F1B84E1D091D6300ED0144 /* MDatabase+Meta.h */,
+				71F1B84F1D091D6300ED0144 /* MDatabase+Meta.m */,
+				71F1B8511D09248800ED0144 /* TypeKit.h */,
+				71F1B8521D09248800ED0144 /* TypeKit.m */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		71F1B8541D0951E100ED0144 /* DMTemplateEngine */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8551D0951F100ED0144 /* DMTemplateEngine.h */,
+				71F1B8561D0951F100ED0144 /* DMTemplateEngine.m */,
+			);
+			path = DMTemplateEngine;
+			sourceTree = "<group>";
+		};
+		71F1B8581D09520900ED0144 /* CodeGenerate */ = {
+			isa = PBXGroup;
+			children = (
+				71F1B8591D09521E00ED0144 /* Model.hp */,
+				71F1B85A1D09521E00ED0144 /* Model.mp */,
+				71F1B85C1D09525000ED0144 /* CodeGenerate.h */,
+				71F1B85D1D09525000ED0144 /* CodeGenerate.m */,
+			);
+			path = CodeGenerate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F1B7FC1D07DD3B00ED0144 /* MDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F1B80E1D07DD3B00ED0144 /* Build configuration list for PBXNativeTarget "MDatabase" */;
+			buildPhases = (
+				71F1B7F91D07DD3B00ED0144 /* Sources */,
+				71F1B7FA1D07DD3B00ED0144 /* Frameworks */,
+				71F1B7FB1D07DD3B00ED0144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDatabase;
+			productName = MDatabase;
+			productReference = 71F1B7FD1D07DD3B00ED0144 /* MDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F1B7F51D07DD3B00ED0144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "http://www.macdev.io";
+				TargetAttributes = {
+					71F1B7FC1D07DD3B00ED0144 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 71F1B7F81D07DD3B00ED0144 /* Build configuration list for PBXProject "MDatabase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71F1B7F41D07DD3B00ED0144;
+			productRefGroup = 71F1B7FE1D07DD3B00ED0144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F1B7FC1D07DD3B00ED0144 /* MDatabase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F1B7FB1D07DD3B00ED0144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F1B85F1D09568800ED0144 /* Model.hp in Resources */,
+				71F1B85B1D09521E00ED0144 /* Model.mp in Resources */,
+				71F1B8071D07DD3B00ED0144 /* Assets.xcassets in Resources */,
+				71F1B8321D081B6200ED0144 /* DatabaseDemo.sqlite in Resources */,
+				71F1B80A1D07DD3B00ED0144 /* MainMenu.xib in Resources */,
+				71F1B8231D07DDC000ED0144 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F1B7F91D07DD3B00ED0144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F1B8571D0951F100ED0144 /* DMTemplateEngine.m in Sources */,
+				71F1B8291D07DE3000ED0144 /* MDatabase.m in Sources */,
+				71F1B8371D081B8F00ED0144 /* PersonDAO.m in Sources */,
+				71F1B82F1D07DE5A00ED0144 /* MModel.m in Sources */,
+				71F1B85E1D09525000ED0144 /* CodeGenerate.m in Sources */,
+				71F1B8471D0917D800ED0144 /* Table.m in Sources */,
+				71F1B81E1D07DDC000ED0144 /* FMDatabase.m in Sources */,
+				71F1B8051D07DD3B00ED0144 /* main.m in Sources */,
+				71F1B84A1D0917E600ED0144 /* Field.m in Sources */,
+				71F1B8221D07DDC000ED0144 /* FMResultSet.m in Sources */,
+				71F1B8501D091D6300ED0144 /* MDatabase+Meta.m in Sources */,
+				71F1B83A1D081B9600ED0144 /* Person.m in Sources */,
+				71F1B8401D082AAA00ED0144 /* DAO.m in Sources */,
+				71F1B82C1D07DE4900ED0144 /* MDAO.m in Sources */,
+				71F1B8201D07DDC000ED0144 /* FMDatabasePool.m in Sources */,
+				71F1B8531D09248800ED0144 /* TypeKit.m in Sources */,
+				71F1B8021D07DD3B00ED0144 /* AppDelegate.m in Sources */,
+				71F1B81F1D07DDC000ED0144 /* FMDatabaseAdditions.m in Sources */,
+				71F1B8211D07DDC000ED0144 /* FMDatabaseQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71F1B8081D07DD3B00ED0144 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F1B8091D07DD3B00ED0144 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71F1B80C1D07DD3B00ED0144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		71F1B80D1D07DD3B00ED0144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		71F1B80F1D07DD3B00ED0144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MDatabase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.MDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71F1B8101D07DD3B00ED0144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MDatabase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.MDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F1B7F81D07DD3B00ED0144 /* Build configuration list for PBXProject "MDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F1B80C1D07DD3B00ED0144 /* Debug */,
+				71F1B80D1D07DD3B00ED0144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F1B80E1D07DD3B00ED0144 /* Build configuration list for PBXNativeTarget "MDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F1B80F1D07DD3B00ED0144 /* Debug */,
+				71F1B8101D07DD3B00ED0144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F1B7F51D07DD3B00ED0144 /* Project object */;
+}

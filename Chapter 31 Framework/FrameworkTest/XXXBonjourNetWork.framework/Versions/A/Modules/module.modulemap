@@ -1,0 +1,6 @@
+framework module XXXBonjourNetWork {
+  umbrella header "XXXBonjourNetWork.h"
+
+  export *
+  module * { export * }
+}

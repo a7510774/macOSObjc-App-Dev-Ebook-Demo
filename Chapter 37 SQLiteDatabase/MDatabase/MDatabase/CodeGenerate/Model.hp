@@ -1,0 +1,18 @@
+/*
+ {% table.name %}.h
+ {%Project%}
+ Created by {%Author%} on {%CreateDate%}.
+ Copyright (c) 2014 {%CopyRights%}. All rights reserved.
+ */
+#import "MModel.h"
+@interface {% table.name %} : MModel
+{% foreach(field in table.fields) %}
+{% if(field.isSimpleType==YES) %}
+@property (nonatomic, assign) {% field.objcType %} {% field.name %};
+{% else %}
+@property (nonatomic, strong) {% field.objcType %} *{% field.name %};
+{% endif %}
+{% endforeach %}
+/*init property member var by parsing NSDictionary parameter*/
+- (id)initWithDictionary:(NSDictionary *)dictionary;
+@end

@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4234AE7E1C26E12C0035A7CE /* openMacIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4234AE7D1C26E12C0035A7CE /* openMacIcon@2x.png */; };
+		425CDDD61C22E03C00D53767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CDDD51C22E03C00D53767 /* AppDelegate.m */; };
+		425CDDD91C22E03C00D53767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CDDD81C22E03C00D53767 /* main.m */; };
+		425CDDDB1C22E03C00D53767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425CDDDA1C22E03C00D53767 /* Assets.xcassets */; };
+		425CDDDE1C22E03C00D53767 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425CDDDC1C22E03C00D53767 /* MainMenu.xib */; };
+		425CDDE61C22F18800D53767 /* blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425CDDE51C22F18800D53767 /* blue@2x.png */; };
+		425CDDE91C22F54600D53767 /* XXXPeripheralService.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CDDE81C22F54600D53767 /* XXXPeripheralService.m */; };
+		425CDE5E1C23BE2A00D53767 /* SystemInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CDE5D1C23BE2A00D53767 /* SystemInfoHelper.m */; };
+		425CDE671C24041900D53767 /* JSONObjKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CDE661C24041900D53767 /* JSONObjKit.m */; };
+		425CDE691C24279000D53767 /* PasswordCmd.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425CDE681C24279000D53767 /* PasswordCmd.strings */; };
+		425CDE6B1C2427C200D53767 /* SleepCmd.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425CDE6A1C2427C200D53767 /* SleepCmd.strings */; };
+		425CDE6E1C2428A400D53767 /* CmdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CDE6D1C2428A400D53767 /* CmdManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4234AE7D1C26E12C0035A7CE /* openMacIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "openMacIcon@2x.png"; sourceTree = "<group>"; };
+		425CDDD11C22E03C00D53767 /* OpenMacX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenMacX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425CDDD41C22E03C00D53767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		425CDDD51C22E03C00D53767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		425CDDD81C22E03C00D53767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425CDDDA1C22E03C00D53767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		425CDDDD1C22E03C00D53767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		425CDDDF1C22E03C00D53767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425CDDE51C22F18800D53767 /* blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@2x.png"; sourceTree = "<group>"; };
+		425CDDE71C22F54600D53767 /* XXXPeripheralService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXXPeripheralService.h; sourceTree = "<group>"; };
+		425CDDE81C22F54600D53767 /* XXXPeripheralService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXXPeripheralService.m; sourceTree = "<group>"; };
+		425CDE5C1C23BE2A00D53767 /* SystemInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfoHelper.h; sourceTree = "<group>"; };
+		425CDE5D1C23BE2A00D53767 /* SystemInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfoHelper.m; sourceTree = "<group>"; };
+		425CDE651C24041900D53767 /* JSONObjKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObjKit.h; sourceTree = "<group>"; };
+		425CDE661C24041900D53767 /* JSONObjKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObjKit.m; sourceTree = "<group>"; };
+		425CDE681C24279000D53767 /* PasswordCmd.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = PasswordCmd.strings; sourceTree = "<group>"; };
+		425CDE6A1C2427C200D53767 /* SleepCmd.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = SleepCmd.strings; sourceTree = "<group>"; };
+		425CDE6C1C2428A400D53767 /* CmdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdManager.h; sourceTree = "<group>"; };
+		425CDE6D1C2428A400D53767 /* CmdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CmdManager.m; sourceTree = "<group>"; };
+		425CDE6F1C25715E00D53767 /* MDRestartShutdownLogout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRestartShutdownLogout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425CDDCE1C22E03C00D53767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425CDDC81C22E03C00D53767 = {
+			isa = PBXGroup;
+			children = (
+				425CDDD31C22E03C00D53767 /* OpenMacX */,
+				425CDDD21C22E03C00D53767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425CDDD21C22E03C00D53767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425CDDD11C22E03C00D53767 /* OpenMacX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425CDDD31C22E03C00D53767 /* OpenMacX */ = {
+			isa = PBXGroup;
+			children = (
+				425CDE6F1C25715E00D53767 /* MDRestartShutdownLogout.h */,
+				425CDDD41C22E03C00D53767 /* AppDelegate.h */,
+				425CDDD51C22E03C00D53767 /* AppDelegate.m */,
+				425CDE651C24041900D53767 /* JSONObjKit.h */,
+				425CDE661C24041900D53767 /* JSONObjKit.m */,
+				425CDDE51C22F18800D53767 /* blue@2x.png */,
+				4234AE7D1C26E12C0035A7CE /* openMacIcon@2x.png */,
+				425CDDDA1C22E03C00D53767 /* Assets.xcassets */,
+				425CDDDC1C22E03C00D53767 /* MainMenu.xib */,
+				425CDDDF1C22E03C00D53767 /* Info.plist */,
+				425CDDD71C22E03C00D53767 /* Supporting Files */,
+				425CDDE71C22F54600D53767 /* XXXPeripheralService.h */,
+				425CDDE81C22F54600D53767 /* XXXPeripheralService.m */,
+				425CDE5C1C23BE2A00D53767 /* SystemInfoHelper.h */,
+				425CDE5D1C23BE2A00D53767 /* SystemInfoHelper.m */,
+				425CDE6C1C2428A400D53767 /* CmdManager.h */,
+				425CDE6D1C2428A400D53767 /* CmdManager.m */,
+			);
+			path = OpenMacX;
+			sourceTree = "<group>";
+		};
+		425CDDD71C22E03C00D53767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425CDDD81C22E03C00D53767 /* main.m */,
+				425CDE681C24279000D53767 /* PasswordCmd.strings */,
+				425CDE6A1C2427C200D53767 /* SleepCmd.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425CDDD01C22E03C00D53767 /* OpenMacX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425CDDE21C22E03C00D53767 /* Build configuration list for PBXNativeTarget "OpenMacX" */;
+			buildPhases = (
+				425CDDCD1C22E03C00D53767 /* Sources */,
+				425CDDCE1C22E03C00D53767 /* Frameworks */,
+				425CDDCF1C22E03C00D53767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenMacX;
+			productName = OpenMacX;
+			productReference = 425CDDD11C22E03C00D53767 /* OpenMacX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425CDDC91C22E03C00D53767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhaojw;
+				TargetAttributes = {
+					425CDDD01C22E03C00D53767 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 425CDDCC1C22E03C00D53767 /* Build configuration list for PBXProject "OpenMacX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 425CDDC81C22E03C00D53767;
+			productRefGroup = 425CDDD21C22E03C00D53767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425CDDD01C22E03C00D53767 /* OpenMacX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425CDDCF1C22E03C00D53767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425CDE6B1C2427C200D53767 /* SleepCmd.strings in Resources */,
+				425CDDE61C22F18800D53767 /* blue@2x.png in Resources */,
+				4234AE7E1C26E12C0035A7CE /* openMacIcon@2x.png in Resources */,
+				425CDE691C24279000D53767 /* PasswordCmd.strings in Resources */,
+				425CDDDB1C22E03C00D53767 /* Assets.xcassets in Resources */,
+				425CDDDE1C22E03C00D53767 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425CDDCD1C22E03C00D53767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425CDDD91C22E03C00D53767 /* main.m in Sources */,
+				425CDDD61C22E03C00D53767 /* AppDelegate.m in Sources */,
+				425CDE6E1C2428A400D53767 /* CmdManager.m in Sources */,
+				425CDE5E1C23BE2A00D53767 /* SystemInfoHelper.m in Sources */,
+				425CDE671C24041900D53767 /* JSONObjKit.m in Sources */,
+				425CDDE91C22F54600D53767 /* XXXPeripheralService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		425CDDDC1C22E03C00D53767 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425CDDDD1C22E03C00D53767 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		425CDDE01C22E03C00D53767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		425CDDE11C22E03C00D53767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		425CDDE31C22E03C00D53767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenMacX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.OpenMacX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		425CDDE41C22E03C00D53767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenMacX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macdev.io.OpenMacX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425CDDCC1C22E03C00D53767 /* Build configuration list for PBXProject "OpenMacX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425CDDE01C22E03C00D53767 /* Debug */,
+				425CDDE11C22E03C00D53767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425CDDE21C22E03C00D53767 /* Build configuration list for PBXNativeTarget "OpenMacX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425CDDE31C22E03C00D53767 /* Debug */,
+				425CDDE41C22E03C00D53767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 425CDDC91C22E03C00D53767 /* Project object */;
+}

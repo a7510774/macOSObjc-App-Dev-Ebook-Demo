@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A8CC1B1BE4A3E000BF2464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A8CC1A1BE4A3E000BF2464 /* AppDelegate.m */; };
+		42A8CC1E1BE4A3E000BF2464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A8CC1D1BE4A3E000BF2464 /* main.m */; };
+		42A8CC201BE4A3E000BF2464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A8CC1F1BE4A3E000BF2464 /* Assets.xcassets */; };
+		42A8CC231BE4A3E000BF2464 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A8CC211BE4A3E000BF2464 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42A8CC161BE4A3E000BF2464 /* NSTableBindingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTableBindingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A8CC191BE4A3E000BF2464 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42A8CC1A1BE4A3E000BF2464 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42A8CC1D1BE4A3E000BF2464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42A8CC1F1BE4A3E000BF2464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42A8CC221BE4A3E000BF2464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		42A8CC241BE4A3E000BF2464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A8CC131BE4A3E000BF2464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A8CC0D1BE4A3E000BF2464 = {
+			isa = PBXGroup;
+			children = (
+				42A8CC181BE4A3E000BF2464 /* NSTableBindingDemo */,
+				42A8CC171BE4A3E000BF2464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42A8CC171BE4A3E000BF2464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A8CC161BE4A3E000BF2464 /* NSTableBindingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A8CC181BE4A3E000BF2464 /* NSTableBindingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42A8CC191BE4A3E000BF2464 /* AppDelegate.h */,
+				42A8CC1A1BE4A3E000BF2464 /* AppDelegate.m */,
+				42A8CC1F1BE4A3E000BF2464 /* Assets.xcassets */,
+				42A8CC211BE4A3E000BF2464 /* MainMenu.xib */,
+				42A8CC241BE4A3E000BF2464 /* Info.plist */,
+				42A8CC1C1BE4A3E000BF2464 /* Supporting Files */,
+			);
+			path = NSTableBindingDemo;
+			sourceTree = "<group>";
+		};
+		42A8CC1C1BE4A3E000BF2464 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42A8CC1D1BE4A3E000BF2464 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A8CC151BE4A3E000BF2464 /* NSTableBindingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A8CC271BE4A3E000BF2464 /* Build configuration list for PBXNativeTarget "NSTableBindingDemo" */;
+			buildPhases = (
+				42A8CC121BE4A3E000BF2464 /* Sources */,
+				42A8CC131BE4A3E000BF2464 /* Frameworks */,
+				42A8CC141BE4A3E000BF2464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTableBindingDemo;
+			productName = NSTableBindingDemo;
+			productReference = 42A8CC161BE4A3E000BF2464 /* NSTableBindingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A8CC0E1BE4A3E000BF2464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhaojw;
+				TargetAttributes = {
+					42A8CC151BE4A3E000BF2464 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 42A8CC111BE4A3E000BF2464 /* Build configuration list for PBXProject "NSTableBindingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A8CC0D1BE4A3E000BF2464;
+			productRefGroup = 42A8CC171BE4A3E000BF2464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A8CC151BE4A3E000BF2464 /* NSTableBindingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A8CC141BE4A3E000BF2464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A8CC201BE4A3E000BF2464 /* Assets.xcassets in Resources */,
+				42A8CC231BE4A3E000BF2464 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A8CC121BE4A3E000BF2464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A8CC1E1BE4A3E000BF2464 /* main.m in Sources */,
+				42A8CC1B1BE4A3E000BF2464 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42A8CC211BE4A3E000BF2464 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A8CC221BE4A3E000BF2464 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42A8CC251BE4A3E000BF2464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		42A8CC261BE4A3E000BF2464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		42A8CC281BE4A3E000BF2464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTableBindingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahunt.NSTableBindingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42A8CC291BE4A3E000BF2464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTableBindingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahunt.NSTableBindingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A8CC111BE4A3E000BF2464 /* Build configuration list for PBXProject "NSTableBindingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A8CC251BE4A3E000BF2464 /* Debug */,
+				42A8CC261BE4A3E000BF2464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A8CC271BE4A3E000BF2464 /* Build configuration list for PBXNativeTarget "NSTableBindingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A8CC281BE4A3E000BF2464 /* Debug */,
+				42A8CC291BE4A3E000BF2464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42A8CC0E1BE4A3E000BF2464 /* Project object */;
+}
