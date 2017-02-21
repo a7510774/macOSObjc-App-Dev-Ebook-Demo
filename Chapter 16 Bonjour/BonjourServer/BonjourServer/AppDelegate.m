@@ -8,10 +8,8 @@
 
 #import "AppDelegate.h"
 
-
 #define kDomain @"local."
 #define kServiceType @"_ProbeHttpService._tcp."
-
 
 @interface AppDelegate ()<NSNetServiceDelegate>
 
@@ -22,7 +20,6 @@
 
 @end
 
-
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
@@ -32,19 +29,12 @@
     
     self.netService.delegate = self;
     
-    
     NSData *txtRecordData = [self txtRecordData];
     
- 
-    
     if(self.onMainThread){
-        
-    
         [self.netService scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
         
-        
         [self.netService publish];
-    
         
         if (txtRecordData)
         {
@@ -53,24 +43,15 @@
     
     }
     else{
-        
-    
         self.netServiceThread = [[NSThread alloc] initWithTarget:self
                                                         selector:@selector(startAsync:)
                                                           object:self.netService];
         [self.netServiceThread start];
-    
-    
-        
    }
-
-    
 }
-
 
 - (NSData*)txtRecordData
 {
-    
     NSDictionary  *txtRecordDictionary = @{@"user":@"myme"};
     
     if (txtRecordDictionary)
@@ -81,10 +62,9 @@
     return nil;
 }
 
-
 - (void)startAsync:(NSNetService *)netService {
-    assert(![[NSThread currentThread] isMainThread]);
-    NSLog(@"%d",[[NSThread currentThread] isMainThread]);
+    assert(!self.onMainThread);
+    NSLog(@"%d",self.onMainThread);
     @autoreleasepool {
         [[NSRunLoop currentRunLoop] run];
         [self.netService scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
@@ -103,9 +83,7 @@
     // Insert code here to tear down your application
 }
 
-
 #pragma mark--NSNetServiceDelegate
-
 
 - (void)netServiceWillPublish:(NSNetService *)sender
 {
@@ -117,12 +95,14 @@
     NSLog(@"netServiceDidPublish OK!");
 }
 
-
 - (void)netService:(NSNetService *)sender didNotPublish:(NSDictionary *)errorDict;
 {
     
     NSLog(@"didNotPublish error %@",errorDict);
 }
 
+- (BOOL)onMainThread {
+    return [[NSThread currentThread] isMainThread];
+}
 
 @end

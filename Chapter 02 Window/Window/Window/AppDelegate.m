@@ -77,6 +77,7 @@
 
 - (IBAction)showSessionsWindow:(id)sender {
     _sessionCode = [[NSApplication sharedApplication]beginModalSessionForWindow:self.myWindow];
+
 }
 
 - (void)windowWillClose:(NSNotification *)notification {
@@ -90,7 +91,7 @@
 - (NSWindow*)myWindow {
     if(!_myWindow){
         NSRect frame = CGRectMake(0,0,200,200);
-        NSUInteger style =  NSTitledWindowMask | NSClosableWindowMask |NSMiniaturizableWindowMask | NSResizableWindowMask;
+        NSUInteger style =  NSWindowStyleMaskTitled | NSWindowStyleMaskClosable |NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable;
         _myWindow = [[NSWindow alloc]initWithContentRect:frame styleMask:style backing:NSBackingStoreBuffered defer:YES];
         _myWindow.title = @"New Create Window";
     }
