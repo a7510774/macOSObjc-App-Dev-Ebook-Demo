@@ -18,8 +18,6 @@
 @property(nonatomic,strong)NSMutableArray *netServices;
 @end
 
-
-
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
@@ -29,25 +27,20 @@
     _serviceBrowser.delegate = self;
     
     _netServices = [NSMutableArray array];
-    
-    
     [self start];
-    
-    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
 
-
 - (void)start{
     [self.serviceBrowser searchForServicesOfType:kServiceType inDomain:kDomain];
 }
+
 - (void)stop{
     [self.serviceBrowser stop];
 }
-
 
 #pragma mark--NSNetServiceBrowserDelegate
 
@@ -69,17 +62,12 @@
 }
 
 #pragma mark--NSNetServiceDelegate
-- (void)netServiceDidResolveAddress:(NSNetService *)sender;
-{
+- (void)netServiceDidResolveAddress:(NSNetService *)sender {
     //完成解析,取得服务的host和port
     NSLog(@"netServiceDidResolveAddress hostName %@ domain =%@  port %ld name %@ ",sender.hostName,sender.domain,sender.port,sender.name);
     
     NSArray *addresses  = sender.addresses;
-    
-    
     [sender startMonitoring];
-   
-    
     char addressBuffer[INET6_ADDRSTRLEN];
     
     //服务的IP地址
@@ -110,14 +98,12 @@
                 NSLog(@"Found service at %s:%d", addressStr, port);
             }
         }
-        
     }
 }
 
 /* Sent to the NSNetService instance's delegate when an error in resolving the instance occurs. The error dictionary will contain two key/value pairs representing the error domain and code (see the NSNetServicesError enumeration above for error code constants).
  */
-- (void)netService:(NSNetService *)sender didNotResolve:(NSDictionary *)errorDict;
-{
+- (void)netService:(NSNetService *)sender didNotResolve:(NSDictionary *)errorDict {
     NSLog(@"didNotResolve error %@",errorDict);
 }
 
