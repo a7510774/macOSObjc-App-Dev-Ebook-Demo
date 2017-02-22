@@ -8,10 +8,9 @@
 
 #import "XXXMultiDelegateModule.h"
 #import "GCDMulticastDelegate.h"
-@implementation XXXMultiDelegateModule
 
-- (id)init
-{
+@implementation XXXMultiDelegateModule
+- (id)init {
     return [self initWithDispatchQueue:NULL];
 }
 

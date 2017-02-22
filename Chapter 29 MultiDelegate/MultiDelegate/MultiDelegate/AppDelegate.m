@@ -70,7 +70,7 @@
     
     
     
-    NSLog(@"ID %ld status %ld ",ID,buddy.status);
+    NSLog(@"ID %ld status %hhd ",ID,buddy.status);
 }
 
 @end

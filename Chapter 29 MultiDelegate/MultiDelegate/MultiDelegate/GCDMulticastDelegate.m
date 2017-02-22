@@ -276,11 +276,11 @@
 			
 			NSInvocation *dupInvocation = [self duplicateInvocation:origInvocation];
 			
-			dispatch_async(node.delegateQueue, ^{ @autoreleasepool {
-				
-				[dupInvocation invokeWithTarget:nodeDelegate];
-				
-			}});
+			dispatch_async(node.delegateQueue, ^{
+                @autoreleasepool {
+                    [dupInvocation invokeWithTarget:nodeDelegate];
+                }
+            });
 		}
 		else if (nodeDelegate == nil)
 		{

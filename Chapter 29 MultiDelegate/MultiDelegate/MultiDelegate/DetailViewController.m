@@ -85,7 +85,7 @@ extern NSString *kBuddySelectionChanged;
     self.addressLabel.stringValue = self.buddyDetail.address;
     
     
-    self.birthdayLabel.stringValue = self.buddyDetail.birthDay;
+//    self.birthdayLabel.stringValue = self.buddyDetail.birthDay;
     
     
    
