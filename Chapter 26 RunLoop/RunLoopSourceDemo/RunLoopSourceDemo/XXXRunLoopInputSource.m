@@ -9,24 +9,21 @@
 #import "AppDelegate.h"
 #import "XXXRunLoopInputSource.h"
 //注册source的回调
-void RunLoopSourceScheduleRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
-{
-    XXXRunLoopInputSource* obj = (__bridge XXXRunLoopInputSource *)info;
-    AppDelegate*   del = [AppDelegate sharedAppDelegate];
-    XXXRunLoopContext* theContext = [[XXXRunLoopContext alloc] initWithSource:obj  runLoop:rl];
+void RunLoopSourceScheduleRoutine(void *info, CFRunLoopRef rl, CFStringRef mode) {
+    XXXRunLoopInputSource *obj = (__bridge XXXRunLoopInputSource *)info;
+    AppDelegate *del = [AppDelegate sharedAppDelegate];
+    XXXRunLoopContext *theContext = [[XXXRunLoopContext alloc] initWithSource:obj  runLoop:rl];
     [del performSelectorOnMainThread:@selector(registerSource:)
                           withObject:theContext waitUntilDone:NO];
 }
 //source唤醒runloop后的回调
-void RunLoopSourcePerformRoutine (void *info)
-{
-    XXXRunLoopInputSource*  obj = (__bridge XXXRunLoopInputSource*)info;
+void RunLoopSourcePerformRoutine(void *info) {
+    XXXRunLoopInputSource* obj = (__bridge XXXRunLoopInputSource*)info;
     [obj sourceFired];
 }
 
 //删除source回调
-void RunLoopSourceCancelRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
-{
+void RunLoopSourceCancelRoutine(void *info, CFRunLoopRef rl, CFStringRef mode) {
     XXXRunLoopInputSource* obj = (__bridge XXXRunLoopInputSource*)info;
     AppDelegate* del = [AppDelegate sharedAppDelegate];
     XXXRunLoopContext* theContext = [[XXXRunLoopContext alloc] initWithSource:obj
@@ -37,14 +34,13 @@ void RunLoopSourceCancelRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
 
 @implementation XXXRunLoopInputSource
 
-- (id)init
-{
+- (id)init {
     self = [super init];
     if(self) {
         //初始化source上下文，注册3个回调函数
         CFRunLoopSourceContext
         context = {0, (__bridge void *)(self), NULL, NULL, NULL, NULL, NULL,
-            &RunLoopSourceScheduleRoutine,
+            RunLoopSourceScheduleRoutine,
             RunLoopSourceCancelRoutine,
             RunLoopSourcePerformRoutine};
         //创建source
@@ -60,8 +56,8 @@ void RunLoopSourceCancelRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
     //source加入到runloop 并且设置为缺省Mode
     CFRunLoopAddSource(runLoop, _runLoopSource, kCFRunLoopDefaultMode);
 }
+
 - (void)invalidate {
-    
     CFRunLoopRef runLoop = CFRunLoopGetCurrent();
     CFRunLoopRemoveSource(runLoop, _runLoopSource, kCFRunLoopDefaultMode);
 }
@@ -75,25 +71,23 @@ void RunLoopSourceCancelRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
             [_commands removeLastObject];
         }
     }
-    
 }
 
 - (void)addCommand:(NSInteger)command withData:(id)data {
     [_commands addObject:@(command)];
+    NSLog(@"增加Command:%@", data);
 }
-
 
 - (void)fireAllCommandsOnRunLoop:(CFRunLoopRef)runloop {
     CFRunLoopSourceSignal(_runLoopSource);
     CFRunLoopWakeUp(runloop);
 }
-@end
 
+@end
 
 @implementation XXXRunLoopContext
 
-- (instancetype)initWithSource:(XXXRunLoopInputSource *)runLoopInputSource runLoop:(CFRunLoopRef)runLoop
-{
+- (instancetype)initWithSource:(XXXRunLoopInputSource *)runLoopInputSource runLoop:(CFRunLoopRef)runLoop {
     self = [super init];
     if (self) {
         _source = runLoopInputSource;
