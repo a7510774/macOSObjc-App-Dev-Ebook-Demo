@@ -6,10 +6,10 @@
 //  Copyright © 2015 zhaojw. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "BuddyStatusMulticastDelegate.h"
+#import <Foundation/Foundation.h>
 @interface BuddyStatusManager : NSObject
 + (instancetype)sharedInstance;
 
-@property(nonatomic,readonly)BuddyStatusMulticastDelegate *statusDelegate;
+@property(nonatomic, readonly) BuddyStatusMulticastDelegate *statusDelegate;
 @end
