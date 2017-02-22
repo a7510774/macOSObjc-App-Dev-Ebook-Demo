@@ -8,13 +8,14 @@
 
 #import <Foundation/Foundation.h>
 @class XXXRunLoopInputSource;
+
 @protocol XXXRunLoopInputSourceDelegate <NSObject>
 @optional
 - (void)source:(XXXRunLoopInputSource*)source command:(NSInteger)command;
+
 @end
 
-@interface XXXRunLoopInputSource : NSObject
-{
+@interface XXXRunLoopInputSource : NSObject {
     CFRunLoopSourceRef _runLoopSource;
     NSMutableArray*    _commands;
 }

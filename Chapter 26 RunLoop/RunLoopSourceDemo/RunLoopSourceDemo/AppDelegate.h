@@ -8,19 +8,17 @@
 
 #import <Cocoa/Cocoa.h>
 #import "XXXRunLoopInputSource.h"
-@interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 + (AppDelegate*)sharedAppDelegate;
 
 @end
 
+//AppDelegate的RunLoop分类
 @interface AppDelegate (RunLoop)
 
 - (void)registerSource:(XXXRunLoopContext *)sourceContext;
-
 - (void)removeSource:(XXXRunLoopContext *)sourceContext;
-
 - (void)simulateInputSourceEvent;
-
 
 @end

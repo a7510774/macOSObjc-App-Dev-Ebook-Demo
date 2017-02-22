@@ -8,11 +8,11 @@
 
 #import "AppDelegate.h"
 #import "XXXRunLoopInputSourceThread.h"
-@interface AppDelegate (){
+@interface AppDelegate () {
     
 }
-@property(nonatomic,strong)NSMutableArray *sources;
-@property (weak) IBOutlet NSWindow *window;
+@property(nonatomic,strong) NSMutableArray *sources;
+@property(weak) IBOutlet NSWindow *window;
 @end
 
 @implementation AppDelegate
@@ -28,36 +28,31 @@
 }
 
 
-- (void)startInputSourceRunLoopThread
-{
+- (void)startInputSourceRunLoopThread {
     XXXRunLoopInputSourceThread *thread = [[XXXRunLoopInputSourceThread alloc] init];
     [thread start];
 }
-
 
 - (IBAction)fireInputSource:(id)sender {
     [self simulateInputSourceEvent];
 }
 
 + (AppDelegate*)sharedAppDelegate {
-    
     return [NSApplication sharedApplication].delegate;
 }
-@end
 
+@end
 
 @implementation AppDelegate (RunLoop)
 
-- (void)registerSource:(XXXRunLoopContext *)sourceContext
-{
+- (void)registerSource:(XXXRunLoopContext *)sourceContext {
     if (!self.sources) {
         self.sources = [NSMutableArray array];
     }
     [self.sources addObject:sourceContext];
 }
 
-- (void)removeSource:(XXXRunLoopContext *)sourceContext
-{
+- (void)removeSource:(XXXRunLoopContext *)sourceContext {
     [self.sources enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         XXXRunLoopContext *context = obj;
         if ([context isEqual:sourceContext]) {
@@ -67,12 +62,11 @@
     }];
 }
 
-- (void)simulateInputSourceEvent
-{
+- (void)simulateInputSourceEvent {
     XXXRunLoopContext *runLoopContext = [self.sources objectAtIndex:0];
     XXXRunLoopInputSource *inputSource = runLoopContext.source;
     NSInteger command = random() % 100;
-    [inputSource addCommand:command withData:nil];
+    [inputSource addCommand:command withData:@"信号来啦"];
     [inputSource fireAllCommandsOnRunLoop:runLoopContext.runLoop];
 }
 
