@@ -18,7 +18,9 @@
     CFRunLoopSourceRef _runLoopSource;
     NSMutableArray*    _commands;
 }
+
 @property(weak) id <XXXRunLoopInputSourceDelegate> delegate;
+
 //增加source到runloop
 - (void)addToCurrentRunLoop;
 //删除source
@@ -31,9 +33,9 @@
 - (void)fireAllCommandsOnRunLoop:(CFRunLoopRef)runloop;
 @end
 
-
 //source 和 runloop关联的上下文对象
 @interface XXXRunLoopContext : NSObject
+
 @property (nonatomic,assign) CFRunLoopRef runLoop;
 @property (nonatomic,strong) XXXRunLoopInputSource* source;
 - (instancetype)initWithSource:(XXXRunLoopInputSource *)runLoopInputSource runLoop:(CFRunLoopRef)runLoop;

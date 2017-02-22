@@ -14,8 +14,6 @@
 
 @end
 
-
-
 @interface AppDelegate (RunLoop)
 
 - (void)registerSource:(XXXRunLoopContext *)sourceContext;

@@ -20,7 +20,7 @@ void RunLoopSourceScheduleRoutine (void *info, CFRunLoopRef rl, CFStringRef mode
 //source唤醒runloop后的回调
 void RunLoopSourcePerformRoutine (void *info)
 {
-    XXXRunLoopInputSource*  obj = (__bridge XXXRunLoopInputSource*)info;
+    XXXRunLoopInputSource* obj = (__bridge XXXRunLoopInputSource*)info;
     [obj sourceFired];
 }
 
@@ -60,6 +60,7 @@ void RunLoopSourceCancelRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
     //source加入到runloop 并且设置为缺省Mode
     CFRunLoopAddSource(runLoop, _runLoopSource, kCFRunLoopDefaultMode);
 }
+
 - (void)invalidate {
     
     CFRunLoopRef runLoop = CFRunLoopGetCurrent();
@@ -75,20 +76,17 @@ void RunLoopSourceCancelRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
             [_commands removeLastObject];
         }
     }
-    
 }
 
 - (void)addCommand:(NSInteger)command withData:(id)data {
     [_commands addObject:@(command)];
 }
 
-
 - (void)fireAllCommandsOnRunLoop:(CFRunLoopRef)runloop {
     CFRunLoopSourceSignal(_runLoopSource);
     CFRunLoopWakeUp(runloop);
 }
 @end
-
 
 @implementation XXXRunLoopContext
 

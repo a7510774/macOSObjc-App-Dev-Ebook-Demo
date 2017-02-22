@@ -10,16 +10,15 @@
 #import "XXXRunLoopInputSource.h"
 
 @interface XXXRunLoopInputSourceThread ()<XXXRunLoopInputSourceDelegate>
+
 @property(nonatomic,strong)XXXRunLoopInputSource *source;
 @end
-
 
 @implementation XXXRunLoopInputSourceThread
 
 - (void)main
 {
     @autoreleasepool {
-        
         NSLog(@"XXXRunLoopInputSourceThread Enter");
         //获取线程的runloop
         NSRunLoop *currentRunLoop = [NSRunLoop currentRunLoop];

@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "XXXRunLoopInputSourceThread.h"
 @interface AppDelegate (){
-
+    
 }
 @property(nonatomic,strong)NSMutableArray *sources;
 @property (weak) IBOutlet NSWindow *window;
