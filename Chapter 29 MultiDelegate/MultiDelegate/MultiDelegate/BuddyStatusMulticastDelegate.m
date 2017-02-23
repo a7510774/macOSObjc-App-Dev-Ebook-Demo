@@ -10,18 +10,12 @@
 
 @implementation BuddyStatusMulticastDelegate
 
-- (void)buddyOfflineRequest:(Buddy *)buddy
-{
-    [multicastDelegate buddyStatus:self didReceiveBuddyOfflineRequest:buddy];
-    
-    
+- (void)buddyOfflineRequest:(Buddy *)buddy {
+  [multicastDelegate buddyStatus:self didReceiveBuddyOfflineRequest:buddy];
 }
 
-- (void)buddyOnlineRequest:(Buddy *)buddy
-{
-    [multicastDelegate buddyStatus:self didReceiveBuddyOnlineRequest:buddy];
+- (void)buddyOnlineRequest:(Buddy *)buddy {
+  [multicastDelegate buddyStatus:self didReceiveBuddyOnlineRequest:buddy];
 }
-
-
 
 @end
