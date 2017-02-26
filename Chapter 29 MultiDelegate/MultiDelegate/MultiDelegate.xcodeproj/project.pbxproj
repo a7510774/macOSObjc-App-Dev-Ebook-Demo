@@ -182,6 +182,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2689B8FD1E5DDBC500600B9C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42304DEC1BC00ECC0074E5F9 /* MainViewController.h */,
+				42304DED1BC00ECC0074E5F9 /* MainViewController.m */,
+				42304DEE1BC00ECC0074E5F9 /* MainViewController.xib */,
+				42304DF11BC00F410074E5F9 /* MasterViewController.h */,
+				42304DF21BC00F410074E5F9 /* MasterViewController.m */,
+				42304DF31BC00F410074E5F9 /* MasterViewController.xib */,
+				42304DF61BC00F5A0074E5F9 /* DetailViewController.h */,
+				42304DF71BC00F5A0074E5F9 /* DetailViewController.m */,
+				42304DF81BC00F5A0074E5F9 /* DetailViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		42304DCC1BC009540074E5F9 = {
 			isa = PBXGroup;
 			children = (
@@ -215,15 +231,7 @@
 				42CD46EC1BC0B6E2004670ED /* BuddyStatusMulticastDelegate.m */,
 				42304DD81BC009540074E5F9 /* AppDelegate.h */,
 				42304DD91BC009540074E5F9 /* AppDelegate.m */,
-				42304DEC1BC00ECC0074E5F9 /* MainViewController.h */,
-				42304DED1BC00ECC0074E5F9 /* MainViewController.m */,
-				42304DEE1BC00ECC0074E5F9 /* MainViewController.xib */,
-				42304DF11BC00F410074E5F9 /* MasterViewController.h */,
-				42304DF21BC00F410074E5F9 /* MasterViewController.m */,
-				42304DF31BC00F410074E5F9 /* MasterViewController.xib */,
-				42304DF61BC00F5A0074E5F9 /* DetailViewController.h */,
-				42304DF71BC00F5A0074E5F9 /* DetailViewController.m */,
-				42304DF81BC00F5A0074E5F9 /* DetailViewController.xib */,
+				2689B8FD1E5DDBC500600B9C /* ViewController */,
 				42304DDE1BC009540074E5F9 /* Assets.xcassets */,
 				42304DE01BC009540074E5F9 /* MainMenu.xib */,
 				42304DE31BC009540074E5F9 /* Info.plist */,
