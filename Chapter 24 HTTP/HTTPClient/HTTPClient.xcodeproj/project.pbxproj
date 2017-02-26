@@ -12,7 +12,6 @@
 		4299C6AE1C79E32000063213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4299C6AD1C79E32000063213 /* Assets.xcassets */; };
 		4299C6B11C79E32000063213 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4299C6AF1C79E32000063213 /* MainMenu.xib */; };
 		4299C6C01C7A910600063213 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299C6BF1C7A910600063213 /* HTTPClient.m */; };
-		713B38EC1D9CE5B4009197A5 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 713B38EB1D9CE5B4009197A5 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +24,6 @@
 		4299C6B21C79E32000063213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4299C6BE1C7A910600063213 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
 		4299C6BF1C7A910600063213 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
-		713B38EA1D9CE5B4009197A5 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		713B38EB1D9CE5B4009197A5 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +64,6 @@
 				4299C6AA1C79E32000063213 /* Supporting Files */,
 				4299C6BE1C7A910600063213 /* HTTPClient.h */,
 				4299C6BF1C7A910600063213 /* HTTPClient.m */,
-				713B38EA1D9CE5B4009197A5 /* Test.h */,
-				713B38EB1D9CE5B4009197A5 /* Test.m */,
 			);
 			path = HTTPClient;
 			sourceTree = "<group>";
@@ -107,7 +102,7 @@
 		4299C69C1C79E32000063213 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = MacDev.io;
 				TargetAttributes = {
 					4299C6A31C79E32000063213 = {
@@ -151,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4299C6AC1C79E32000063213 /* main.m in Sources */,
-				713B38EC1D9CE5B4009197A5 /* Test.m in Sources */,
 				4299C6A91C79E32000063213 /* AppDelegate.m in Sources */,
 				4299C6C01C7A910600063213 /* HTTPClient.m in Sources */,
 			);
@@ -184,8 +178,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -227,8 +223,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
